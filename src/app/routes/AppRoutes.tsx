@@ -5,6 +5,8 @@ import { Routes, Route, Navigate } from 'react-router-dom'
 import { LoadingSpinner } from '@shared/ui/LoadingSpinner'
 import { AuthGuard } from '@shared/guards/AuthGuard'
 
+import { WalletRoutes } from '@features/wallet/routes/wallet.routes'
+
 
 // Lazy load pages
 const LandingPage = React.lazy(() => import('@pages/LandingPage'))
@@ -31,6 +33,8 @@ export const AppRoutes: React.FC = () => {
             <DashboardPage />
           </AuthGuard>
         } />
+
+        <Route path="/wallet/*" element={<WalletRoutes />} />
 
         {/* Fallback */}
         <Route path="*" element={<Navigate to="/" replace />} />

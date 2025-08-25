@@ -98,3 +98,75 @@ export async function verifyPassword(address: string, password: string, ss58 = 4
 export async function exportAccountJson(address: string) {
   const rec = readStore()[address]; if (!rec) throw new Error('Conta não encontrada'); return rec.json
 }
+
+export async function unlockAccount(address: string, password: string, ss58?: number): Promise<any> {
+  await cryptoWaitReady()
+  
+  const store = readStore()
+  const record = store[address]
+  
+  if (!record) {
+    throw new Error('Conta não encontrada')
+  }
+  
+  try {
+    const keyring = new Keyring({ type: 'sr25519', ss58Format: ss58 || record.meta.ss58 })
+    const pair = keyring.addFromJson(record.json)
+    pair.decodePkcs8(password)
+    
+    return pair
+  } catch (error) {
+    throw new Error('Senha incorreta')
+  }
+}
+
+
+// Função para criar conta derivada
+export async function createDerivedAccount(opts: { 
+  parentAddress: string
+  derivationPath: string
+  name?: string
+  password: string
+  ss58?: number 
+}): Promise<{ address: string; meta: LocalAccountMeta }> {
+  await cryptoWaitReady()
+  const { parentAddress, derivationPath, name, password, ss58 = 42 } = opts
+  
+  const store = readStore()
+  const parentRecord = store[parentAddress]
+  
+  if (!parentRecord) {
+    throw new Error('Conta pai não encontrada')
+  }
+  
+  try {
+    // Desbloqueia a conta pai
+    const parentPair = await unlockAccount(parentAddress, password)
+    
+    // Cria derivada
+    const derivedPair = parentPair.derive(derivationPath)
+    derivedPair.meta.name = name
+    
+    // Salva como nova conta
+    const json = derivedPair.toJson(password)
+    
+    const rec: LocalAccountRecord = {
+      meta: { 
+        address: derivedPair.address, 
+        name, 
+        ss58, 
+        createdAt: new Date().toISOString(),
+        derivationPath 
+      },
+      json
+    }
+    
+    store[rec.meta.address] = rec
+    writeStore(store)
+    
+    return { address: rec.meta.address, meta: rec.meta }
+  } catch (error) {
+    throw new Error(`Falha ao criar conta derivada: ${error}`)
+  }
+}
+

@@ -758,6 +758,39 @@
     }
   },
   "wallet": {
+
+    "tokens": {
+      "available": {
+        "pt": "Tokens disponíveis",
+        "en": "Available Tokens",
+        "es": "Tokens disponibles"
+      },
+
+      "loading_for": {
+        "pt": "Para",
+        "en": "For",
+        "es": "Para"
+      },
+
+      "native": {
+        "pt": "BZR (moeda nativa)",
+        "en": "BZR (native token)",
+        "es": "BZR (token nativo)"
+      },
+
+      "refresh": {
+        "pt": "Atualizar saldo",
+        "en": "Refresh balance",
+        "es": "Actualizar saldo"
+      },
+
+      "title": {
+        "pt": "Meus Tokens",
+        "en": "My Tokens",
+        "es": "Mis Tokens"
+      }
+    },    
+    
     "wallet_address": {
       "pt": "Endereço da carteira",
       "en": "Wallet address",

@@ -5,6 +5,7 @@ import { NotificationProvider } from './NotificationProvider'
 //import { useEnterpriseStore } from '@features/marketplace/store/enterpriseStore'
 import { ChainProvider } from './ChainProvider'
 import { PasswordPromptProvider } from './PasswordPromptProvider'
+import { WalletProvider } from './WalletProvider'
 
 
 interface AppProvidersProps {
@@ -29,16 +30,17 @@ const MockDataInitializer: React.FC = () => {
 
 export const AppProviders: React.FC<AppProvidersProps> = ({ children }) => {
   return (
-    
-    <I18nProvider>
-      <NotificationProvider>
-        <ChainProvider>
-          <PasswordPromptProvider>
-            {children}
-          </PasswordPromptProvider>
-        </ChainProvider>
-      </NotificationProvider>
-    </I18nProvider>
+    <WalletProvider>    
+      <I18nProvider>
+        <NotificationProvider>
+          <ChainProvider>
+            <PasswordPromptProvider>
+              {children}
+            </PasswordPromptProvider>
+          </ChainProvider>
+        </NotificationProvider>
+      </I18nProvider>
+    </WalletProvider>
   
   )
 }
