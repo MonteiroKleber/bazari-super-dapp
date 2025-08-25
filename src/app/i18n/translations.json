@@ -1,0 +1,4568 @@
+{
+  "app": {
+    "name": {
+      "pt": "Bazari",
+      "en": "Bazari",
+      "es": "Bazari"
+    },
+    "tagline": {
+      "pt": "Web3 Super App",
+      "en": "Web3 Super App",
+      "es": "Web3 Super App"
+    },
+    "loading": {
+      "pt": "Carregando...",
+      "en": "Loading...",
+      "es": "Cargando..."
+    },
+    "actions": {
+      "save": {
+        "pt": "Salvar",
+        "en": "Save",
+        "es": "Guardar"
+      },
+      "cancel": {
+        "pt": "Cancelar",
+        "en": "Cancel",
+        "es": "Cancelar"
+      },
+      "back": {
+        "pt": "Voltar",
+        "en": "Back",
+        "es": "Volver"
+      },
+      "next": {
+        "pt": "Próximo",
+        "en": "Next",
+        "es": "Siguiente"
+      },
+      "continue": {
+        "pt": "Continuar",
+        "en": "Continue",
+        "es": "Continuar"
+      },
+      "confirm": {
+        "pt": "Confirmar",
+        "en": "Confirm",
+        "es": "Confirmar"
+      },
+      "create": {
+        "pt": "Criar",
+        "en": "Create",
+        "es": "Crear"
+      },
+      "edit": {
+        "pt": "Editar",
+        "en": "Edit",
+        "es": "Editar"
+      },
+      "delete": {
+        "pt": "Excluir",
+        "en": "Delete",
+        "es": "Eliminar"
+      },
+      "search": {
+        "pt": "Buscar",
+        "en": "Search",
+        "es": "Buscar"
+      }
+    }
+  },
+  "header": {
+    "menu": {
+      "pt": "Menu",
+      "en": "Menu",
+      "es": "Menú"
+    },
+    "notifications": {
+      "pt": "Notificações",
+      "en": "Notifications",
+      "es": "Notificaciones"
+    },
+    "profile": {
+      "pt": "Perfil",
+      "en": "Profile",
+      "es": "Perfil"
+    },
+    "wallet": {
+      "pt": "Carteira",
+      "en": "Wallet",
+      "es": "Cartera"
+    },
+    "logout": {
+      "pt": "Sair",
+      "en": "Logout",
+      "es": "Cerrar sesión"
+    }
+  },
+  "footer": {
+    "about": {
+      "pt": "Sobre",
+      "en": "About",
+      "es": "Acerca de"
+    },
+    "help": {
+      "pt": "Ajuda",
+      "en": "Help",
+      "es": "Ayuda"
+    },
+    "terms": {
+      "pt": "Termos",
+      "en": "Terms",
+      "es": "Términos"
+    },
+    "privacy": {
+      "pt": "Privacidade",
+      "en": "Privacy",
+      "es": "Privacidad"
+    },
+    "contact": {
+      "pt": "Contato",
+      "en": "Contact",
+      "es": "Contacto"
+    },
+    "version": {
+      "pt": "Versão",
+      "en": "Version",
+      "es": "Versión"
+    }
+  },
+  "landing": {
+    "hero": {
+      "title": {
+        "pt": "O Futuro do Comércio Digital",
+        "en": "The Future of Digital Commerce",
+        "es": "El Futuro del Comercio Digital"
+      },
+      "subtitle": {
+        "pt": "Marketplace descentralizado, P2P, Wallet e ecossistema Web3 completo",
+        "en": "Decentralized marketplace, P2P, Wallet and complete Web3 ecosystem",
+        "es": "Marketplace descentralizado, P2P, Wallet y ecosistema Web3 completo"
+      },
+      "cta_primary": {
+        "pt": "Começar Agora",
+        "en": "Get Started",
+        "es": "Comenzar Ahora"
+      },
+      "cta_secondary": {
+        "pt": "Explorar Marketplace",
+        "en": "Explore Marketplace",
+        "es": "Explorar Marketplace"
+      }
+    },
+    "features": {
+      "title": {
+        "pt": "Por que escolher o Bazari?",
+        "en": "Why choose Bazari?",
+        "es": "¿Por qué elegir Bazari?"
+      },
+      "decentralized": {
+        "title": {
+          "pt": "Descentralizado",
+          "en": "Decentralized",
+          "es": "Descentralizado"
+        },
+        "description": {
+          "pt": "Sem intermediários. Você tem controle total.",
+          "en": "No intermediaries. You have full control.",
+          "es": "Sin intermediarios. Tienes control total."
+        }
+      },
+      "p2p": {
+        "title": {
+          "pt": "P2P Trading",
+          "en": "P2P Trading",
+          "es": "Trading P2P"
+        },
+        "description": {
+          "pt": "Troque diretamente com outros usuários.",
+          "en": "Trade directly with other users.",
+          "es": "Intercambia directamente con otros usuarios."
+        }
+      },
+      "digital": {
+        "title": {
+          "pt": "Marketplace Digital",
+          "en": "Digital Marketplace",
+          "es": "Marketplace Digital"
+        },
+        "description": {
+          "pt": "Venda e compre produtos digitais com segurança.",
+          "en": "Sell and buy digital products safely.",
+          "es": "Vende y compra productos digitales de forma segura."
+        }
+      }
+    },
+    "how_it_works": {
+      "title": {
+        "pt": "Como funciona",
+        "en": "How it works",
+        "es": "Cómo funciona"
+      },
+      "step1": {
+        "title": {
+          "pt": "1. Crie sua conta",
+          "en": "1. Create your account",
+          "es": "1. Crea tu cuenta"
+        },
+        "description": {
+          "pt": "Registre-se com seed phrase segura",
+          "en": "Register with secure seed phrase",
+          "es": "Regístrate con frase semilla segura"
+        }
+      },
+      "step2": {
+        "title": {
+          "pt": "2. Configure seu perfil",
+          "en": "2. Set up your profile",
+          "es": "2. Configura tu perfil"
+        },
+        "description": {
+          "pt": "Construa sua reputação na rede",
+          "en": "Build your reputation on the network",
+          "es": "Construye tu reputación en la red"
+        }
+      },
+      "step3": {
+        "title": {
+          "pt": "3. Comece a negociar",
+          "en": "3. Start trading",
+          "es": "3. Comienza a comerciar"
+        },
+        "description": {
+          "pt": "Compre, venda e troque com segurança",
+          "en": "Buy, sell and trade safely",
+          "es": "Compra, vende e intercambia de forma segura"
+        }
+      }
+    },
+    "nation": {
+      "badge": {
+        "pt": "Nação Digital Soberana",
+        "en": "Sovereign Digital Nation",
+        "es": "Nación Digital Soberana"
+      },
+      "title": {
+        "pt": "Bazari – A Primeira Nação Digital Descentralizada e Sem Fronteira",
+        "en": "Bazari – The First Borderless, Decentralized Digital Nation",
+        "es": "Bazari – La Primera Nación Digital Descentralizada y sin Fronteras"
+      },
+      "subtitle": {
+        "pt": "A Nação do Povo, nascida nas feiras, nos bairros e no comércio popular. Sem fronteiras, sem intermediários, governada por todos.",
+        "en": "The People’s Nation, born in street markets, neighborhoods and grassroots commerce. Borderless, trustless, governed by all.",
+        "es": "La Nación del Pueblo, nacida en los mercados, los barrios y el comercio popular. Sin fronteras, sin intermediarios, gobernada por todos."
+      },
+      "cta_primary": {
+        "pt": "Entrar na Nação",
+        "en": "Enter the Nation",
+        "es": "Entrar a la Nación"
+      },
+      "cta_secondary": {
+        "pt": "Ver Módulos",
+        "en": "View Modules",
+        "es": "Ver Módulos"
+      },
+      "trustless": {
+        "pt": "Sem intermediários",
+        "en": "Trustless",
+        "es": "Sin intermediarios"
+      },
+      "borderless": {
+        "pt": "Sem fronteiras",
+        "en": "Borderless",
+        "es": "Sin fronteras"
+      },
+      "governedByPeople": {
+        "pt": "Governada pelo povo",
+        "en": "Governed by the people",
+        "es": "Gobernada por el pueblo"
+      }
+    },
+    "modules": {
+      "title": {
+        "pt": "Módulos da Nação",
+        "en": "Nation Modules",
+        "es": "Módulos de la Nación"
+      },
+      "subtitle": {
+        "pt": "Comércio, câmbio P2P, DEX, SubDAOs e emissão de tokens — tudo em um único ecossistema.",
+        "en": "Commerce, P2P exchange, DEX, SubDAOs and token issuance — all in one ecosystem.",
+        "es": "Comercio, cambio P2P, DEX, SubDAOs y emisión de tokens — todo en un solo ecosistema."
+      },
+      "commerce": {
+        "title": {
+          "pt": "Comércio de Produtos & Serviços",
+          "en": "Products & Services Commerce",
+          "es": "Comercio de Productos y Servicios"
+        },
+        "desc": {
+          "pt": "Marketplace popular descentralizado: do bairro para o mundo.",
+          "en": "Decentralized popular marketplace: from the neighborhood to the world.",
+          "es": "Marketplace popular descentralizado: del barrio al mundo."
+        },
+        "cta": {
+          "pt": "Explorar Marketplace",
+          "en": "Explore Marketplace",
+          "es": "Explorar Marketplace"
+        }
+      },
+      "p2p": {
+        "title": {
+          "pt": "Câmbio P2P",
+          "en": "P2P Exchange",
+          "es": "Cambio P2P"
+        },
+        "desc": {
+          "pt": "Negocie BZR diretamente com pessoas, com reputação e segurança.",
+          "en": "Trade BZR directly with people, with reputation and safety.",
+          "es": "Negocia BZR directamente con personas, con reputación y seguridad."
+        },
+        "cta": {
+          "pt": "Ir para P2P",
+          "en": "Go to P2P",
+          "es": "Ir a P2P"
+        }
+      },
+      "dex": {
+        "title": {
+          "pt": "DEX Comunitária",
+          "en": "Community DEX",
+          "es": "DEX Comunitaria"
+        },
+        "desc": {
+          "pt": "Troque ativos do ecossistema com liberdade e transparência on-chain.",
+          "en": "Swap ecosystem assets with on-chain freedom and transparency.",
+          "es": "Intercambia activos del ecosistema con libertad y transparencia on-chain."
+        },
+        "cta": {
+          "pt": "Abrir DEX",
+          "en": "Open DEX",
+          "es": "Abrir DEX"
+        }
+      },
+      "subdao": {
+        "title": {
+          "pt": "Crie sua SubDAO",
+          "en": "Create your SubDAO",
+          "es": "Crea tu SubDAO"
+        },
+        "desc": {
+          "pt": "Lance sua organização descentralizada e emita tokens no mercado DEX.",
+          "en": "Launch your decentralized organization and issue tokens on the DEX market.",
+          "es": "Lanza tu organización descentralizada y emite tokens en el mercado DEX."
+        },
+        "cta": {
+          "pt": "Começar",
+          "en": "Start",
+          "es": "Comenzar"
+        }
+      }
+    },
+    "how": {
+      "title": {
+        "pt": "Como a Nação Funciona",
+        "en": "How the Nation Works",
+        "es": "Cómo Funciona la Nación"
+      },
+      "subtitle": {
+        "pt": "Três passos para viver a soberania digital no dia a dia.",
+        "en": "Three steps to live digital sovereignty day to day.",
+        "es": "Tres pasos para vivir la soberanía digital en el día a día."
+      },
+      "step1": {
+        "title": {
+          "pt": "1. Junte-se ao povo",
+          "en": "1. Join the people",
+          "es": "1. Únete al pueblo"
+        },
+        "desc": {
+          "pt": "Crie sua identidade, conecte sua wallet e entre na Nação Bazari.",
+          "en": "Create your identity, connect your wallet and enter the Bazari Nation.",
+          "es": "Crea tu identidad, conecta tu wallet y entra a la Nación Bazari."
+        }
+      },
+      "step2": {
+        "title": {
+          "pt": "2. Construa riqueza real",
+          "en": "2. Build real wealth",
+          "es": "2. Construye riqueza real"
+        },
+        "desc": {
+          "pt": "Comércio popular, P2P, DEX e SubDAOs para a vida real e a economia local.",
+          "en": "Popular commerce, P2P, DEX and SubDAOs for real life and local economy.",
+          "es": "Comercio popular, P2P, DEX y SubDAOs para la vida real y la economía local."
+        }
+      },
+      "step3": {
+        "title": {
+          "pt": "3. Governe junto",
+          "en": "3. Govern together",
+          "es": "3. Gobierna junto"
+        },
+        "desc": {
+          "pt": "Vote, proponha e co-crie políticas públicas da Nação Digital.",
+          "en": "Vote, propose and co-create the Digital Nation public policies.",
+          "es": "Vota, propone y co-crea las políticas públicas de la Nación Digital."
+        }
+      }
+    },
+    "cta": {
+      "title": {
+        "pt": "Faça parte da Nação do Povo",
+        "en": "Join the People’s Nation",
+        "es": "Únete a la Nación del Pueblo"
+      },
+      "subtitle": {
+        "pt": "Não é apenas uma plataforma. É soberania digital.",
+        "en": "It’s not a platform. It’s digital sovereignty.",
+        "es": "No es solo una plataforma. Es soberanía digital."
+      },
+      "button": {
+        "pt": "Entrar na Nação",
+        "en": "Enter the Nation",
+        "es": "Entrar a la Nación"
+      }
+    }
+  },
+  "auth": {
+    "terms": {
+      "title": {
+        "pt": "Termos de Uso",
+        "en": "Terms of Use",
+        "es": "Términos de Uso"
+      },
+      "accept": {
+        "pt": "Eu aceito os Termos de Uso e a Política de Privacidade",
+        "en": "I accept the Terms of Service and Privacy Policy",
+        "es": "Acepto los Términos de Servicio y la Política de Privacidad"
+      }
+    },
+    "login_existing": {
+      "pt": "Acessar sua conta existente",
+      "en": "Access your existing account",
+      "es": "Acceder a tu cuenta existente"
+    },
+    "login": {
+      "title": {
+        "pt": "Entrar no Bazari",
+        "en": "Login to Bazari",
+        "es": "Iniciar sesión en Bazari"
+      },
+      "subtitle": {
+        "pt": "Acesse sua conta ou crie uma nova",
+        "en": "Access your account or create a new one",
+        "es": "Accede a tu cuenta o crea una nueva"
+      },
+      "existing_account": {
+        "pt": "Já tenho uma conta",
+        "en": "I already have an account",
+        "es": "Ya tengo una cuenta"
+      },
+      "new_account": {
+        "pt": "Criar nova conta",
+        "en": "Create new account",
+        "es": "Crear nueva cuenta"
+      },
+      "import_account": {
+        "pt": "Importar conta existente",
+        "en": "Import existing account",
+        "es": "Importar cuenta existente"
+      },
+      "guest_mode": {
+        "pt": "Continuar como visitante",
+        "en": "Continue as guest",
+        "es": "Continuar como invitado"
+      },
+      "account_label": {
+        "pt": "Conta",
+        "en": "Account",
+        "es": "Cuenta"
+      },
+      "select": {
+        "pt": "Selecionar…",
+        "en": "Select…",
+        "es": "Seleccionar…"
+      },
+      "no_local_accounts": {
+        "pt": "Nenhuma conta local encontrada. Importe ou crie uma conta.",
+        "en": "No local account found. Import or create an account.",
+        "es": "No se encontró una cuenta local. Importa o crea una cuenta."
+      },
+      "password_required": {
+        "pt": "Informe a senha.",
+        "en": "Enter your password.",
+        "es": "Ingresa tu contraseña."
+      },
+      "failed": {
+        "pt": "Falha ao entrar",
+        "en": "Failed to login",
+        "es": "Error al iniciar sesión"
+      },
+      "no_local_accounts_hint": {
+        "pt": "Nenhuma conta local encontrada.",
+        "en": "No local account found.",
+        "es": "No se encontró una cuenta local."
+      },
+      "import": {
+        "pt": "Importe",
+        "en": "Import",
+        "es": "Importar"
+      },
+      "create": {
+        "pt": "crie",
+        "en": "create",
+        "es": "crear"
+      },
+      "one": {
+        "pt": "uma conta.",
+        "en": "an account.",
+        "es": "una cuenta."
+      },
+      "password": {
+        "pt": "Senha",
+        "en": "Password",
+        "es": "Contraseña"
+      },
+      "password_placeholder": {
+        "pt": "Digite sua senha",
+        "en": "Enter your password",
+        "es": "Ingresa tu contraseña"
+      },
+      "entering": {
+        "pt": "Entrando…",
+        "en": "Entering…",
+        "es": "Ingresando…"
+      },
+      "enter": {
+        "pt": "Entrar",
+        "en": "Enter",
+        "es": "Entrar"
+      }
+    },
+    "create": {
+      "step": {
+        "terms": {
+          "pt": "Aceitar Termos",
+          "en": "Accept Terms",
+          "es": "Aceptar Términos"
+        },
+        "reveal": {
+          "pt": "Frase de Recuperação",
+          "en": "Recovery Phrase",
+          "es": "Frase de Recuperación"
+        },
+        "confirm": {
+          "pt": "Confirmação",
+          "en": "Confirmation",
+          "es": "Confirmación"
+        }
+      },
+      "password_label": {
+        "pt": "Defina uma senha (min. 8 caracteres)",
+        "en": "Set a password (min. 8 characters)",
+        "es": "Define una contraseña (mín. 8 caracteres)"
+      },
+      "password": {
+        "pt": "Senha",
+        "en": "Password",
+        "es": "Contraseña"
+      },
+      "password_confirm": {
+        "pt": "Confirmar senha",
+        "en": "Confirm password",
+        "es": "Confirmar contraseña"
+      },
+      "finalizing": {
+        "pt": "Finalizando…",
+        "en": "Finalizing…",
+        "es": "Finalizando…"
+      },
+      "finish_and_enter": {
+        "pt": "Finalizar e entrar",
+        "en": "Finish and enter",
+        "es": "Finalizar e ingresar"
+      }
+    },
+    "seed": {
+      "title": {
+        "pt": "Sua Frase de Recuperação",
+        "en": "Your Recovery Phrase",
+        "es": "Tu Frase de Recuperación"
+      },
+      "warning": {
+        "pt": "⚠️ Guarde esta frase em local seguro. É a única forma de recuperar sua conta.",
+        "en": "⚠️ Store this phrase in a safe place. It's the only way to recover your account.",
+        "es": "⚠️ Guarda esta frase en un lugar seguro. Es la única forma de recuperar tu cuenta."
+      },
+      "reveal": {
+        "pt": "Clique para revelar",
+        "en": "Click to reveal",
+        "es": "Haz clic para revelar"
+      },
+      "copy": {
+        "pt": "Copiar",
+        "en": "Copy",
+        "es": "Copiar"
+      },
+      "copied": {
+        "pt": "Copiado!",
+        "en": "Copied!",
+        "es": "¡Copiado!"
+      },
+      "confirm_title": {
+        "pt": "Confirme sua frase de recuperação",
+        "en": "Confirm your recovery phrase",
+        "es": "Confirma tu frase de recuperación"
+      },
+      "confirm_instruction": {
+        "pt": "Selecione as palavras na ordem correta",
+        "en": "Select the words in the correct order",
+        "es": "Selecciona las palabras en el orden correcto"
+      }
+    },
+    "import": {
+      "seed_title": {
+        "pt": "Importar com Frase de Recuperação",
+        "en": "Import with Recovery Phrase",
+        "es": "Importar con Frase de Recuperación"
+      },
+      "json_title": {
+        "pt": "Importar Arquivo JSON",
+        "en": "Import JSON File",
+        "es": "Importar Archivo JSON"
+      },
+      "seed_placeholder": {
+        "pt": "Digite suas 12 ou 24 palavras...",
+        "en": "Enter your 12 or 24 words...",
+        "es": "Ingresa tus 12 o 24 palabras..."
+      },
+      "password": {
+        "pt": "Senha do arquivo",
+        "en": "File password",
+        "es": "Contraseña del archivo"
+      }
+    }
+  },
+  "dashboard": {
+    "p2p_trades": {
+      "title": {
+        "pt": "P2P em Andamento",
+        "en": "P2P in Progress",
+        "es": "P2P en Progreso"
+      },
+      "no_trades": {
+        "pt": "Nenhuma negociação ativa",
+        "en": "No active trades",
+        "es": "No hay intercambios activos"
+      }
+    },
+    "welcome": {
+      "pt": "Bem-vindo ao Bazari",
+      "en": "Welcome to Bazari",
+      "es": "Bienvenido a Bazari"
+    },
+    "my_wallet": {
+      "title": {
+        "pt": "Minha Carteira",
+        "en": "My Wallet",
+        "es": "Mi Cartera"
+      },
+      "balance": {
+        "pt": "Saldo",
+        "en": "Balance",
+        "es": "Saldo"
+      },
+      "send": {
+        "pt": "Enviar",
+        "en": "Send",
+        "es": "Enviar"
+      },
+      "receive": {
+        "pt": "Receber",
+        "en": "Receive",
+        "es": "Recibir"
+      },
+      "history": {
+        "pt": "Histórico",
+        "en": "History",
+        "es": "Historial"
+      }
+    },
+    "my_listings": {
+      "title": {
+        "pt": "Meus Anúncios",
+        "en": "My Listings",
+        "es": "Mis Anuncios"
+      },
+      "active": {
+        "pt": "Ativos",
+        "en": "Active",
+        "es": "Activos"
+      }
+    },
+    "notifications": {
+      "title": {
+        "pt": "Notificações Recentes",
+        "en": "Recent Notifications",
+        "es": "Notificaciones Recientes"
+      },
+      "view_all": {
+        "pt": "Ver todas",
+        "en": "View all",
+        "es": "Ver todas"
+      }
+    },
+    "reputation": {
+      "title": {
+        "pt": "Minha Reputação",
+        "en": "My Reputation",
+        "es": "Mi Reputación"
+      },
+      "rating": {
+        "pt": "Avaliação",
+        "en": "Rating",
+        "es": "Calificación"
+      },
+      "reviews": {
+        "pt": "avaliações",
+        "en": "reviews",
+        "es": "reseñas"
+      }
+    },
+    "quick_actions": {
+      "title": {
+        "pt": "Ações Rápidas",
+        "en": "Quick Actions",
+        "es": "Acciones Rápidas"
+      },
+      "create_p2p": {
+        "pt": "Criar P2P",
+        "en": "Create P2P",
+        "es": "Crear P2P"
+      },
+      "create_listing": {
+        "pt": "Criar Anúncio",
+        "en": "Create Listing",
+        "es": "Crear Anuncio"
+      },
+      "browse_p2p": {
+        "pt": "Explorar P2P",
+        "en": "Browse P2P",
+        "es": "Explorar P2P"
+      },
+      "browse_marketplace": {
+        "pt": "Explorar Marketplace",
+        "en": "Browse Marketplace",
+        "es": "Explorar Marketplace"
+      }
+    }
+  },
+  "wallet": {
+    "wallet_address": {
+      "pt": "Endereço da carteira",
+      "en": "Wallet address",
+      "es": "Dirección de la cartera"
+    },
+    "payment_request": {
+      "pt": "Solicitação de pagamento",
+      "en": "Payment request",
+      "es": "Solicitud de pago"
+    },
+    "add_nft.name_required": {
+      "pt": "Nome é obrigatório",
+      "en": "Name is required",
+      "es": "El nombre es obligatorio"
+    },
+    "history.from": {
+      "pt": "De",
+      "en": "From",
+      "es": "De"
+    },
+    "history.to": {
+      "pt": "Para",
+      "en": "To",
+      "es": "Para"
+    },
+    "title": {
+      "pt": "Carteira",
+      "en": "Wallet",
+      "es": "Billetera"
+    },
+    "tabs": {
+      "tokens": {
+        "pt": "Tokens",
+        "en": "Tokens",
+        "es": "Tokens"
+      },
+      "nfts": {
+        "pt": "NFTs",
+        "en": "NFTs",
+        "es": "NFTs"
+      }
+    },
+    "actions": {
+      "send": {
+        "pt": "Enviar",
+        "en": "Send",
+        "es": "Enviar"
+      },
+      "receive": {
+        "pt": "Receber",
+        "en": "Receive",
+        "es": "Recibir"
+      },
+      "history": {
+        "pt": "Histórico",
+        "en": "History",
+        "es": "Historial"
+      },
+      "add_token": {
+        "pt": "Adicionar Token",
+        "en": "Add Token",
+        "es": "Agregar Token"
+      },
+      "add_nft": {
+        "pt": "Adicionar NFT",
+        "en": "Add NFT",
+        "es": "Agregar NFT"
+      }
+    },
+    "accounts": {
+      "title": {
+        "pt": "Gerenciar Contas",
+        "en": "Manage Accounts",
+        "es": "Gestionar Cuentas"
+      },
+      "description": {
+        "pt": "Crie, importe e gerencie suas contas da carteira.",
+        "en": "Create, import and manage your wallet accounts.",
+        "es": "Crea, importa y gestiona las cuentas de tu billetera."
+      },
+      "new": {
+        "pt": "Nova Conta",
+        "en": "New Account",
+        "es": "Nueva Cuenta"
+      },
+      "import": {
+        "pt": "Importar Conta",
+        "en": "Import Account",
+        "es": "Importar Cuenta"
+      },
+      "import_seed": {
+        "pt": "Importar Seed",
+        "en": "Import Seed",
+        "es": "Importar Seed"
+      },
+      "import_json": {
+        "pt": "Importar JSON",
+        "en": "Import JSON",
+        "es": "Importar JSON"
+      },
+      "watch_only": {
+        "pt": "Watch-Only",
+        "en": "Watch-Only",
+        "es": "Solo Vista"
+      },
+      "export_json": {
+        "pt": "Exportar JSON",
+        "en": "Export JSON",
+        "es": "Exportar JSON"
+      },
+      "remove": {
+        "pt": "Remover Conta",
+        "en": "Remove Account",
+        "es": "Eliminar Cuenta"
+      },
+      "rename": {
+        "pt": "Renomear Conta",
+        "en": "Rename Account",
+        "es": "Renombrar Cuenta"
+      },
+      "active": {
+        "pt": "Ativa",
+        "en": "Active",
+        "es": "Activa"
+      },
+      "quick_actions": {
+        "pt": "Ações Rápidas",
+        "en": "Quick Actions",
+        "es": "Acciones Rápidas"
+      },
+      "my_accounts": {
+        "pt": "Minhas Contas",
+        "en": "My Accounts",
+        "es": "Mis Cuentas"
+      },
+      "create_title": {
+        "pt": "Criar Nova Conta",
+        "en": "Create New Account",
+        "es": "Crear Nueva Cuenta"
+      },
+      "import_seed_title": {
+        "pt": "Importar com Seed",
+        "en": "Import with Seed",
+        "es": "Importar con Seed"
+      },
+      "import_json_title": {
+        "pt": "Importar JSON",
+        "en": "Import JSON",
+        "es": "Importar JSON"
+      },
+      "watch_title": {
+        "pt": "Adicionar Watch-Only",
+        "en": "Add Watch-Only",
+        "es": "Agregar Solo Vista"
+      },
+      "rename_title": {
+        "pt": "Renomear Conta",
+        "en": "Rename Account",
+        "es": "Renombrar Cuenta"
+      },
+      "export_title": {
+        "pt": "Exportar Conta",
+        "en": "Export Account",
+        "es": "Exportar Cuenta"
+      },
+      "remove_title": {
+        "pt": "Remover Conta",
+        "en": "Remove Account",
+        "es": "Eliminar Cuenta"
+      }
+    },
+    "send": {
+      "title": {
+        "pt": "Enviar",
+        "en": "Send",
+        "es": "Enviar"
+      },
+      "step_asset": {
+        "pt": "Ativo",
+        "en": "Asset",
+        "es": "Activo"
+      },
+      "step_recipient": {
+        "pt": "Destinatário",
+        "en": "Recipient",
+        "es": "Destinatario"
+      },
+      "step_amount": {
+        "pt": "Valor",
+        "en": "Amount",
+        "es": "Cantidad"
+      },
+      "step_review": {
+        "pt": "Revisão",
+        "en": "Review",
+        "es": "Revisar"
+      },
+      "select_asset": {
+        "pt": "Selecionar Ativo",
+        "en": "Select Asset",
+        "es": "Seleccionar Activo"
+      },
+      "select_asset_description": {
+        "pt": "Escolha o token ou NFT que deseja enviar.",
+        "en": "Choose the token or NFT you want to send.",
+        "es": "Elige el token o NFT que quieres enviar."
+      },
+      "recipient": {
+        "pt": "Destinatário",
+        "en": "Recipient",
+        "es": "Destinatario"
+      },
+      "recipient_description": {
+        "pt": "Digite o endereço do destinatário.",
+        "en": "Enter the recipient's address.",
+        "es": "Ingresa la dirección del destinatario."
+      },
+      "wallet_address": {
+        "pt": "Endereço da Carteira",
+        "en": "Wallet Address",
+        "es": "Dirección de Billetera"
+      },
+      "amount": {
+        "pt": "Valor",
+        "en": "Amount",
+        "es": "Cantidad"
+      },
+      "amount_description": {
+        "pt": "Digite o valor que deseja enviar.",
+        "en": "Enter the amount you want to send.",
+        "es": "Ingresa la cantidad que quieres enviar."
+      },
+      "max": {
+        "pt": "Máximo",
+        "en": "Max",
+        "es": "Máximo"
+      },
+      "memo": {
+        "pt": "Memo (Opcional)",
+        "en": "Memo (Optional)",
+        "es": "Memo (Opcional)"
+      },
+      "memo_placeholder": {
+        "pt": "Adicione uma nota...",
+        "en": "Add a note...",
+        "es": "Agregar una nota..."
+      },
+      "review": {
+        "pt": "Revisar Transação",
+        "en": "Review Transaction",
+        "es": "Revisar Transacción"
+      },
+      "review_description": {
+        "pt": "Confirme os detalhes antes de enviar.",
+        "en": "Confirm the details before sending.",
+        "es": "Confirma los detalles antes de enviar."
+      },
+      "from": {
+        "pt": "De",
+        "en": "From",
+        "es": "De"
+      },
+      "to": {
+        "pt": "Para",
+        "en": "To",
+        "es": "Para"
+      },
+      "asset": {
+        "pt": "Ativo",
+        "en": "Asset",
+        "es": "Activo"
+      },
+      "estimated_fee": {
+        "pt": "Taxa Estimada",
+        "en": "Estimated Fee",
+        "es": "Tarifa Estimada"
+      },
+      "warning_title": {
+        "pt": "Atenção!",
+        "en": "Warning!",
+        "es": "¡Atención!"
+      },
+      "warning": {
+        "pt": "Transações na blockchain são irreversíveis. Verifique todos os dados antes de confirmar.",
+        "en": "Blockchain transactions are irreversible. Check all data before confirming.",
+        "es": "Las transacciones blockchain son irreversibles. Verifica todos los datos antes de confirmar."
+      },
+      "confirm_send": {
+        "pt": "Confirmar & Enviar",
+        "en": "Confirm & Send",
+        "es": "Confirmar y Enviar"
+      },
+      "processing": {
+        "pt": "Processando Transação",
+        "en": "Processing Transaction",
+        "es": "Procesando Transacción"
+      },
+      "processing_description": {
+        "pt": "Sua transação está sendo processada...",
+        "en": "Your transaction is being processed...",
+        "es": "Tu transacción está siendo procesada..."
+      },
+      "success_title": {
+        "pt": "Transação Enviada!",
+        "en": "Transaction Sent!",
+        "es": "¡Transacción Enviada!"
+      },
+      "token_success": {
+        "pt": "Seus tokens foram enviados com sucesso.",
+        "en": "Your tokens have been sent successfully.",
+        "es": "Tus tokens han sido enviados exitosamente."
+      },
+      "nft_success": {
+        "pt": "Seu NFT foi enviado com sucesso.",
+        "en": "Your NFT has been sent successfully.",
+        "es": "Tu NFT ha sido enviado exitosamente."
+      },
+      "error_title": {
+        "pt": "Erro na Transação",
+        "en": "Transaction Error",
+        "es": "Error en Transacción"
+      },
+      "error_description": {
+        "pt": "Houve um erro ao processar sua transação. Tente novamente.",
+        "en": "There was an error processing your transaction. Please try again.",
+        "es": "Hubo un error al procesar tu transacción. Inténtalo de nuevo."
+      },
+      "transaction_hash": {
+        "pt": "Hash da Transação",
+        "en": "Transaction Hash",
+        "es": "Hash de Transacción"
+      },
+      "send_another": {
+        "pt": "Enviar Outro",
+        "en": "Send Another",
+        "es": "Enviar Otro"
+      },
+      "recipient_required": {
+        "pt": "Destinatário é obrigatório",
+        "en": "Recipient is required",
+        "es": "Destinatario es requerido"
+      },
+      "invalid_address": {
+        "pt": "Endereço inválido",
+        "en": "Invalid address",
+        "es": "Dirección inválida"
+      },
+      "amount_required": {
+        "pt": "Valor é obrigatório",
+        "en": "Amount is required",
+        "es": "Cantidad es requerida"
+      },
+      "insufficient_balance": {
+        "pt": "Saldo insuficiente",
+        "en": "Insufficient balance",
+        "es": "Saldo insuficiente"
+      },
+      "success": {
+        "pt": "Transferência iniciada!",
+        "en": "Transfer initiated!",
+        "es": "¡Transferencia iniciada!"
+      },
+      "watch_only_title": {
+        "pt": "Conta Watch-Only",
+        "en": "Watch-Only Account",
+        "es": "Cuenta Solo Vista"
+      },
+      "watch_only_description": {
+        "pt": "Não é possível enviar transações com contas watch-only.",
+        "en": "Cannot send transactions with watch-only accounts.",
+        "es": "No se pueden enviar transacciones con cuentas solo vista."
+      }
+    },
+    "receive": {
+      "title": {
+        "pt": "Receber",
+        "en": "Receive",
+        "es": "Recibir"
+      },
+      "description": {
+        "pt": "Compartilhe seu endereço para receber pagamentos.",
+        "en": "Share your address to receive payments.",
+        "es": "Comparte tu dirección para recibir pagos."
+      },
+      "qr_code": {
+        "pt": "QR Code",
+        "en": "QR Code",
+        "es": "Código QR"
+      },
+      "payment_request": {
+        "pt": "Solicitação de Pagamento (Opcional)",
+        "en": "Payment Request (Optional)",
+        "es": "Solicitud de Pago (Opcional)"
+      },
+      "select_token": {
+        "pt": "Selecionar Token",
+        "en": "Select Token",
+        "es": "Seleccionar Token"
+      },
+      "amount": {
+        "pt": "Valor (Opcional)",
+        "en": "Amount (Optional)",
+        "es": "Cantidad (Opcional)"
+      },
+      "memo": {
+        "pt": "Memo (Opcional)",
+        "en": "Memo (Optional)",
+        "es": "Memo (Opcional)"
+      },
+      "memo_placeholder": {
+        "pt": "Descrição do pagamento...",
+        "en": "Payment description...",
+        "es": "Descripción del pago..."
+      },
+      "show_qr": {
+        "pt": "Mostrar QR Code",
+        "en": "Show QR Code",
+        "es": "Mostrar Código QR"
+      },
+      "hide_qr": {
+        "pt": "Ocultar",
+        "en": "Hide",
+        "es": "Ocultar"
+      },
+      "download": {
+        "pt": "Baixar",
+        "en": "Download",
+        "es": "Descargar"
+      },
+      "qr_description": {
+        "pt": "Escaneie para enviar pagamento",
+        "en": "Scan to send payment",
+        "es": "Escanea para enviar pago"
+      },
+      "share_options": {
+        "pt": "Opções de Compartilhamento",
+        "en": "Share Options",
+        "es": "Opciones de Compartir"
+      },
+      "copy_address": {
+        "pt": "Copiar Endereço",
+        "en": "Copy Address",
+        "es": "Copiar Dirección"
+      },
+      "copy_address_desc": {
+        "pt": "Endereço simples",
+        "en": "Simple address",
+        "es": "Dirección simple"
+      },
+      "share_request": {
+        "pt": "Compartilhar Solicitação",
+        "en": "Share Request",
+        "es": "Compartir Solicitud"
+      },
+      "with_amount": {
+        "pt": "Com valor",
+        "en": "With amount",
+        "es": "Con cantidad"
+      },
+      "simple_share": {
+        "pt": "Compartilhamento simples",
+        "en": "Simple share",
+        "es": "Compartir simple"
+      },
+      "network_info": {
+        "pt": "Informações da Rede",
+        "en": "Network Information",
+        "es": "Información de Red"
+      },
+      "network": {
+        "pt": "Rede",
+        "en": "Network",
+        "es": "Red"
+      },
+      "prefix": {
+        "pt": "Prefixo",
+        "en": "Prefix",
+        "es": "Prefijo"
+      },
+      "important_notes": {
+        "pt": "Notas Importantes",
+        "en": "Important Notes",
+        "es": "Notas Importantes"
+      },
+      "note_1": {
+        "pt": "Este endereço recebe apenas tokens da rede Substrate",
+        "en": "This address only receives Substrate network tokens",
+        "es": "Esta dirección solo recibe tokens de la red Substrate"
+      },
+      "note_2": {
+        "pt": "Verifique sempre a rede antes de enviar",
+        "en": "Always verify the network before sending",
+        "es": "Siempre verifica la red antes de enviar"
+      },
+      "note_3": {
+        "pt": "Transações são irreversíveis",
+        "en": "Transactions are irreversible",
+        "es": "Las transacciones son irreversibles"
+      },
+      "note_4": {
+        "pt": "Guarde este endereço com segurança",
+        "en": "Keep this address secure",
+        "es": "Mantén esta dirección segura"
+      },
+      "your_address": {
+        "pt": "Seu Endereço",
+        "en": "Your Address",
+        "es": "Tu Dirección"
+      },
+      "qr_hint": {
+        "pt": "Código QR para recebimento",
+        "en": "QR code for receiving",
+        "es": "Código QR para recibir"
+      }
+    },
+    "history": {
+      "title": {
+        "pt": "Histórico de Transações",
+        "en": "Transaction History",
+        "es": "Historial de Transacciones"
+      },
+      "description": {
+        "pt": "Veja todas as suas transações de",
+        "en": "View all your transactions from",
+        "es": "Ve todas tus transacciones de"
+      },
+      "search_placeholder": {
+        "pt": "Buscar por hash, endereço ou ativo...",
+        "en": "Search by hash, address or asset...",
+        "es": "Buscar por hash, dirección o activo..."
+      },
+      "all": {
+        "pt": "Todas",
+        "en": "All",
+        "es": "Todas"
+      },
+      "sent": {
+        "pt": "Enviadas",
+        "en": "Sent",
+        "es": "Enviadas"
+      },
+      "received": {
+        "pt": "Recebidas",
+        "en": "Received",
+        "es": "Recibidas"
+      },
+      "minted": {
+        "pt": "Criado",
+        "en": "Minted",
+        "es": "Creado"
+      },
+      "burned": {
+        "pt": "Queimado",
+        "en": "Burned",
+        "es": "Quemado"
+      },
+      "date_from": {
+        "pt": "Data Inicial",
+        "en": "Date From",
+        "es": "Fecha Desde"
+      },
+      "date_to": {
+        "pt": "Data Final",
+        "en": "Date To",
+        "es": "Fecha Hasta"
+      },
+      "sort_by": {
+        "pt": "Ordenar por",
+        "en": "Sort By",
+        "es": "Ordenar Por"
+      },
+      "newest_first": {
+        "pt": "Mais recentes",
+        "en": "Newest First",
+        "es": "Más Recientes"
+      },
+      "oldest_first": {
+        "pt": "Mais antigas",
+        "en": "Oldest First",
+        "es": "Más Antiguas"
+      },
+      "highest_amount": {
+        "pt": "Maior valor",
+        "en": "Highest Amount",
+        "es": "Mayor Cantidad"
+      },
+      "lowest_amount": {
+        "pt": "Menor valor",
+        "en": "Lowest Amount",
+        "es": "Menor Cantidad"
+      },
+      "transactions": {
+        "pt": "Transações",
+        "en": "Transactions",
+        "es": "Transacciones"
+      },
+      "total": {
+        "pt": "transações",
+        "en": "transactions",
+        "es": "transacciones"
+      },
+      "of": {
+        "pt": "de",
+        "en": "of",
+        "es": "de"
+      },
+      "no_transactions": {
+        "pt": "Nenhuma transação",
+        "en": "No transactions",
+        "es": "Sin transacciones"
+      },
+      "no_transactions_desc": {
+        "pt": "Suas transações aparecerão aqui.",
+        "en": "Your transactions will appear here.",
+        "es": "Tus transacciones aparecerán aquí."
+      },
+      "no_results": {
+        "pt": "Nenhum resultado encontrado",
+        "en": "No results found",
+        "es": "No se encontraron resultados"
+      },
+      "try_different_filters": {
+        "pt": "Tente filtros diferentes.",
+        "en": "Try different filters.",
+        "es": "Prueba filtros diferentes."
+      },
+      "transaction_hash": {
+        "pt": "Hash da Transação",
+        "en": "Transaction Hash",
+        "es": "Hash de Transacción"
+      },
+      "explorer": {
+        "pt": "Explorer",
+        "en": "Explorer",
+        "es": "Explorador"
+      },
+      "view_on_chain": {
+        "pt": "Ver na Chain",
+        "en": "View on Chain",
+        "es": "Ver en Cadena"
+      },
+      "from_address": {
+        "pt": "Endereço de Origem",
+        "en": "From Address",
+        "es": "Dirección de Origen"
+      },
+      "to_address": {
+        "pt": "Endereço de Destino",
+        "en": "To Address",
+        "es": "Dirección de Destino"
+      },
+      "error": {
+        "pt": "Erro",
+        "en": "Error",
+        "es": "Error"
+      },
+      "refreshed": {
+        "pt": "Histórico atualizado!",
+        "en": "History updated!",
+        "es": "¡Historial actualizado!"
+      }
+    },
+    "add_token": {
+      "title": {
+        "pt": "Adicionar Token",
+        "en": "Add Token",
+        "es": "Agregar Token"
+      },
+      "description": {
+        "pt": "Adicione tokens personalizados à sua carteira.",
+        "en": "Add custom tokens to your wallet.",
+        "es": "Agrega tokens personalizados a tu billetera."
+      },
+      "search_title": {
+        "pt": "Buscar Token",
+        "en": "Search Token",
+        "es": "Buscar Token"
+      },
+      "search_description": {
+        "pt": "Escolha um token popular ou adicione um personalizado.",
+        "en": "Choose a popular token or add a custom one.",
+        "es": "Elige un token popular o agrega uno personalizado."
+      },
+      "search_placeholder": {
+        "pt": "Buscar por nome, símbolo ou Asset ID...",
+        "en": "Search by name, symbol or Asset ID...",
+        "es": "Buscar por nombre, símbolo o Asset ID..."
+      },
+      "popular_tokens": {
+        "pt": "Tokens Populares",
+        "en": "Popular Tokens",
+        "es": "Tokens Populares"
+      },
+      "no_results": {
+        "pt": "Nenhum token encontrado",
+        "en": "No tokens found",
+        "es": "No se encontraron tokens"
+      },
+      "all_added": {
+        "pt": "Todos os tokens populares já foram adicionados",
+        "en": "All popular tokens have been added",
+        "es": "Todos los tokens populares han sido agregados"
+      },
+      "custom_token": {
+        "pt": "Token Personalizado",
+        "en": "Custom Token",
+        "es": "Token Personalizado"
+      },
+      "custom_description": {
+        "pt": "Adicionar manualmente por Asset ID",
+        "en": "Add manually by Asset ID",
+        "es": "Agregar manualmente por Asset ID"
+      },
+      "confirm_token": {
+        "pt": "Confirmar Token",
+        "en": "Confirm Token",
+        "es": "Confirmar Token"
+      },
+      "token_details": {
+        "pt": "Detalhes do Token",
+        "en": "Token Details",
+        "es": "Detalles del Token"
+      },
+      "confirm_description": {
+        "pt": "Verifique os dados do token antes de adicionar.",
+        "en": "Verify token data before adding.",
+        "es": "Verifica los datos del token antes de agregar."
+      },
+      "details_description": {
+        "pt": "Preencha as informações do token personalizado.",
+        "en": "Fill in the custom token information.",
+        "es": "Completa la información del token personalizado."
+      },
+      "asset_id": {
+        "pt": "Asset ID",
+        "en": "Asset ID",
+        "es": "Asset ID"
+      },
+      "decimals": {
+        "pt": "Decimais",
+        "en": "Decimals",
+        "es": "Decimales"
+      },
+      "name": {
+        "pt": "Nome do Token",
+        "en": "Token Name",
+        "es": "Nombre del Token"
+      },
+      "symbol": {
+        "pt": "Símbolo",
+        "en": "Symbol",
+        "es": "Símbolo"
+      },
+      "icon_url": {
+        "pt": "URL do Ícone (Opcional)",
+        "en": "Icon URL (Optional)",
+        "es": "URL del Ícono (Opcional)"
+      },
+      "warning_title": {
+        "pt": "Importante!",
+        "en": "Important!",
+        "es": "¡Importante!"
+      },
+      "warning_1": {
+        "pt": "Verifique se o Asset ID está correto",
+        "en": "Verify that the Asset ID is correct",
+        "es": "Verifica que el Asset ID sea correcto"
+      },
+      "warning_2": {
+        "pt": "Tokens falsos podem causar perda de fundos",
+        "en": "Fake tokens may cause loss of funds",
+        "es": "Los tokens falsos pueden causar pérdida de fondos"
+      },
+      "warning_3": {
+        "pt": "Confirme os dados em fontes oficiais",
+        "en": "Confirm data from official sources",
+        "es": "Confirma los datos de fuentes oficiales"
+      },
+      "add": {
+        "pt": "Adicionar Token",
+        "en": "Add Token",
+        "es": "Agregar Token"
+      },
+      "success_title": {
+        "pt": "Token Adicionado!",
+        "en": "Token Added!",
+        "es": "¡Token Agregado!"
+      },
+      "success_description": {
+        "pt": "O token foi adicionado à sua carteira com sucesso.",
+        "en": "The token has been successfully added to your wallet.",
+        "es": "El token ha sido agregado exitosamente a tu billetera."
+      },
+      "add_another": {
+        "pt": "Adicionar Outro",
+        "en": "Add Another",
+        "es": "Agregar Otro"
+      },
+      "asset_id_required": {
+        "pt": "Asset ID é obrigatório",
+        "en": "Asset ID is required",
+        "es": "Asset ID es requerido"
+      },
+      "name_required": {
+        "pt": "Nome é obrigatório",
+        "en": "Name is required",
+        "es": "Nombre es requerido"
+      },
+      "symbol_required": {
+        "pt": "Símbolo é obrigatório",
+        "en": "Symbol is required",
+        "es": "Símbolo es requerido"
+      },
+      "invalid_decimals": {
+        "pt": "Decimais devem ser entre 0 e 32",
+        "en": "Decimals must be between 0 and 32",
+        "es": "Los decimales deben estar entre 0 y 32"
+      },
+      "already_exists": {
+        "pt": "Token já existe na sua carteira",
+        "en": "Token already exists in your wallet",
+        "es": "El token ya existe en tu billetera"
+      },
+      "success": {
+        "pt": "Token adicionado com sucesso!",
+        "en": "Token added successfully!",
+        "es": "¡Token agregado exitosamente!"
+      }
+    },
+    "add_nft": {
+      "title": {
+        "pt": "Adicionar NFT",
+        "en": "Add NFT",
+        "es": "Agregar NFT"
+      },
+      "description": {
+        "pt": "Descrição (Opcional)",
+        "en": "Description (Optional)",
+        "es": "Descripción (Opcional)"
+      },
+      "step_collection": {
+        "pt": "Coleção",
+        "en": "Collection",
+        "es": "Colección"
+      },
+      "step_details": {
+        "pt": "Detalhes",
+        "en": "Details",
+        "es": "Detalles"
+      },
+      "step_preview": {
+        "pt": "Preview",
+        "en": "Preview",
+        "es": "Vista Previa"
+      },
+      "step_success": {
+        "pt": "Sucesso",
+        "en": "Success",
+        "es": "Éxito"
+      },
+      "select_collection": {
+        "pt": "Selecionar Coleção",
+        "en": "Select Collection",
+        "es": "Seleccionar Colección"
+      },
+      "select_description": {
+        "pt": "Escolha uma coleção popular ou adicione uma personalizada.",
+        "en": "Choose a popular collection or add a custom one.",
+        "es": "Elige una colección popular o agrega una personalizada."
+      },
+      "popular_collections": {
+        "pt": "Coleções Populares",
+        "en": "Popular Collections",
+        "es": "Colecciones Populares"
+      },
+      "custom_collection": {
+        "pt": "Coleção Personalizada",
+        "en": "Custom Collection",
+        "es": "Colección Personalizada"
+      },
+      "custom_description": {
+        "pt": "Adicionar coleção manualmente",
+        "en": "Add collection manually",
+        "es": "Agregar colección manualmente"
+      },
+      "confirm_collection": {
+        "pt": "Confirmar Coleção",
+        "en": "Confirm Collection",
+        "es": "Confirmar Colección"
+      },
+      "collection_details": {
+        "pt": "Detalhes da Coleção",
+        "en": "Collection Details",
+        "es": "Detalles de la Colección"
+      },
+      "confirm_description": {
+        "pt": "Verifique os dados da coleção.",
+        "en": "Verify collection data.",
+        "es": "Verifica los datos de la colección."
+      },
+      "details_description": {
+        "pt": "Preencha as informações da coleção NFT.",
+        "en": "Fill in the NFT collection information.",
+        "es": "Completa la información de la colección NFT."
+      },
+      "collection_id": {
+        "pt": "ID da Coleção",
+        "en": "Collection ID",
+        "es": "ID de Colección"
+      },
+      "collection_name": {
+        "pt": "Nome da Coleção",
+        "en": "Collection Name",
+        "es": "Nombre de la Colección"
+      },
+      "api_endpoint": {
+        "pt": "Endpoint da API (Opcional)",
+        "en": "API Endpoint (Optional)",
+        "es": "Endpoint de API (Opcional)"
+      },
+      "preview_url": {
+        "pt": "URL de Preview (Opcional)",
+        "en": "Preview URL (Optional)",
+        "es": "URL de Vista Previa (Opcional)"
+      },
+      "description_placeholder": {
+        "pt": "Descrição da coleção NFT...",
+        "en": "NFT collection description...",
+        "es": "Descripción de la colección NFT..."
+      },
+      "info_title": {
+        "pt": "Informação",
+        "en": "Information",
+        "es": "Información"
+      },
+      "info_description": {
+        "pt": "Esta função adiciona a coleção para visualização apenas. NFTs reais devem ser recebidos via transferência.",
+        "en": "This function adds the collection for viewing only. Real NFTs must be received via transfer.",
+        "es": "Esta función agrega la colección solo para visualización. Los NFTs reales deben recibirse vía transferencia."
+      },
+      "preview": {
+        "pt": "Preview",
+        "en": "Preview",
+        "es": "Vista Previa"
+      },
+      "preview_title": {
+        "pt": "Preview da Coleção",
+        "en": "Collection Preview",
+        "es": "Vista Previa de Colección"
+      },
+      "preview_description": {
+        "pt": "Veja como a coleção aparecerá na sua carteira.",
+        "en": "See how the collection will appear in your wallet.",
+        "es": "Ve cómo aparecerá la colección en tu billetera."
+      },
+      "verified": {
+        "pt": "Verificado",
+        "en": "Verified",
+        "es": "Verificado"
+      },
+      "total_supply": {
+        "pt": "Total",
+        "en": "Total",
+        "es": "Total"
+      },
+      "floor_price": {
+        "pt": "Preço Mín.",
+        "en": "Floor Price",
+        "es": "Precio Mín."
+      },
+      "sample_preview": {
+        "pt": "Exemplo de NFT",
+        "en": "Sample NFT",
+        "es": "NFT de Ejemplo"
+      },
+      "add": {
+        "pt": "Adicionar Coleção",
+        "en": "Add Collection",
+        "es": "Agregar Colección"
+      },
+      "success_title": {
+        "pt": "Coleção Adicionada!",
+        "en": "Collection Added!",
+        "es": "¡Colección Agregada!"
+      },
+      "success_description": {
+        "pt": "A coleção NFT foi adicionada à sua carteira com sucesso.",
+        "en": "The NFT collection has been successfully added to your wallet.",
+        "es": "La colección NFT ha sido agregada exitosamente a tu billetera."
+      },
+      "add_another": {
+        "pt": "Adicionar Outra",
+        "en": "Add Another",
+        "es": "Agregar Otra"
+      },
+      "collection_id_required": {
+        "pt": "ID da coleção é obrigatório",
+        "en": "Collection ID is required",
+        "es": "ID de colección es requerido"
+      },
+      "already_exists": {
+        "pt": "Esta coleção já foi adicionada",
+        "en": "This collection has already been added",
+        "es": "Esta colección ya ha sido agregada"
+      },
+      "success": {
+        "pt": "Coleção NFT adicionada!",
+        "en": "NFT collection added!",
+        "es": "¡Colección NFT agregada!"
+      }
+    },
+    "total_balance": {
+      "pt": "Saldo Total Estimado",
+      "en": "Total Estimated Balance",
+      "es": "Saldo Total Estimado"
+    },
+    "loading_balance": {
+      "pt": "Carregando saldo...",
+      "en": "Loading balance...",
+      "es": "Cargando saldo..."
+    },
+    "no_account_title": {
+      "pt": "Nenhuma conta encontrada",
+      "en": "No account found",
+      "es": "No se encontró cuenta"
+    },
+    "no_account_description": {
+      "pt": "Crie ou importe uma conta para começar a usar sua carteira.",
+      "en": "Create or import an account to start using your wallet.",
+      "es": "Crea o importa una cuenta para comenzar a usar tu billetera."
+    },
+    "manage_accounts": {
+      "pt": "Gerenciar Contas",
+      "en": "Manage Accounts",
+      "es": "Gestionar Cuentas"
+    },
+    "address_copied": {
+      "pt": "Endereço copiado!",
+      "en": "Address copied!",
+      "es": "¡Dirección copiada!"
+    },
+    "copy_failed": {
+      "pt": "Erro ao copiar",
+      "en": "Copy failed",
+      "es": "Error al copiar"
+    },
+    "account_switched": {
+      "pt": "Conta alterada!",
+      "en": "Account switched!",
+      "es": "¡Cuenta cambiada!"
+    },
+    "watch_only": {
+      "pt": "Watch",
+      "en": "Watch",
+      "es": "Vista"
+    },
+    "active": {
+      "pt": "Ativa",
+      "en": "Active",
+      "es": "Activa"
+    },
+    "switch": {
+      "pt": "Ativar",
+      "en": "Switch",
+      "es": "Cambiar"
+    },
+    "name_required": {
+      "pt": "Nome é obrigatório",
+      "en": "Name is required",
+      "es": "Nombre es requerido"
+    },
+    "seed_required": {
+      "pt": "Frase de recuperação é obrigatória",
+      "en": "Recovery phrase is required",
+      "es": "Frase de recuperación es requerida"
+    },
+    "invalid_seed_length": {
+      "pt": "A frase deve ter 12 ou 24 palavras",
+      "en": "Phrase must have 12 or 24 words",
+      "es": "La frase debe tener 12 o 24 palabras"
+    },
+    "account_created": {
+      "pt": "Conta criada com sucesso!",
+      "en": "Account created successfully!",
+      "es": "¡Cuenta creada exitosamente!"
+    },
+    "account_imported": {
+      "pt": "Conta importada com sucesso!",
+      "en": "Account imported successfully!",
+      "es": "¡Cuenta importada exitosamente!"
+    },
+    "file_and_password_required": {
+      "pt": "Arquivo e senha são obrigatórios",
+      "en": "File and password are required",
+      "es": "Archivo y contraseña son requeridos"
+    },
+    "address_required": {
+      "pt": "Endereço é obrigatório",
+      "en": "Address is required",
+      "es": "Dirección es requerida"
+    },
+    "watch_account_added": {
+      "pt": "Conta watch-only adicionada!",
+      "en": "Watch-only account added!",
+      "es": "¡Cuenta solo vista agregada!"
+    },
+    "account_renamed": {
+      "pt": "Conta renomeada!",
+      "en": "Account renamed!",
+      "es": "¡Cuenta renombrada!"
+    },
+    "password_required": {
+      "pt": "Senha é obrigatória",
+      "en": "Password is required",
+      "es": "Contraseña es requerida"
+    },
+    "account_exported": {
+      "pt": "Conta exportada!",
+      "en": "Account exported!",
+      "es": "¡Cuenta exportada!"
+    },
+    "account_removed": {
+      "pt": "Conta removida!",
+      "en": "Account removed!",
+      "es": "¡Cuenta eliminada!"
+    },
+    "account_name": {
+      "pt": "Nome da Conta",
+      "en": "Account Name",
+      "es": "Nombre de Cuenta"
+    },
+    "account_name_placeholder": {
+      "pt": "Minha Conta",
+      "en": "My Account",
+      "es": "Mi Cuenta"
+    },
+    "seed_phrase": {
+      "pt": "Frase de Recuperação",
+      "en": "Recovery Phrase",
+      "es": "Frase de Recuperación"
+    },
+    "seed_warning_title": {
+      "pt": "Importante!",
+      "en": "Important!",
+      "es": "¡Importante!"
+    },
+    "seed_warning": {
+      "pt": "Anote sua frase de recuperação em local seguro. É a única forma de recuperar sua conta.",
+      "en": "Write down your recovery phrase in a safe place. It's the only way to recover your account.",
+      "es": "Anota tu frase de recuperación en un lugar seguro. Es la única forma de recuperar tu cuenta."
+    },
+    "reveal_seed": {
+      "pt": "Clique para revelar",
+      "en": "Click to reveal",
+      "es": "Haz clic para revelar"
+    },
+    "copy_seed": {
+      "pt": "Copiar Frase",
+      "en": "Copy Phrase",
+      "es": "Copiar Frase"
+    },
+    "seed_copied": {
+      "pt": "Frase copiada!",
+      "en": "Phrase copied!",
+      "es": "¡Frase copiada!"
+    },
+    "create_account": {
+      "pt": "Criar Conta",
+      "en": "Create Account",
+      "es": "Crear Cuenta"
+    },
+    "import_account": {
+      "pt": "Importar Conta",
+      "en": "Import Account",
+      "es": "Importar Cuenta"
+    },
+    "seed_placeholder": {
+      "pt": "Digite suas 12 ou 24 palavras...",
+      "en": "Enter your 12 or 24 words...",
+      "es": "Ingresa tus 12 o 24 palabras..."
+    },
+    "select_file": {
+      "pt": "Selecionar Arquivo",
+      "en": "Select File",
+      "es": "Seleccionar Archivo"
+    },
+    "file_password": {
+      "pt": "Senha do Arquivo",
+      "en": "File Password",
+      "es": "Contraseña del Archivo"
+    },
+    "watch_name_placeholder": {
+      "pt": "Conta Watch-Only",
+      "en": "Watch-Only Account",
+      "es": "Cuenta Solo Vista"
+    },
+    "add_account": {
+      "pt": "Adicionar Conta",
+      "en": "Add Account",
+      "es": "Agregar Cuenta"
+    },
+    "new_name": {
+      "pt": "Novo Nome",
+      "en": "New Name",
+      "es": "Nuevo Nombre"
+    },
+    "rename": {
+      "pt": "Renomear",
+      "en": "Rename",
+      "es": "Renombrar"
+    },
+    "export_description": {
+      "pt": "Será gerado um arquivo JSON criptografado com sua chave privada.",
+      "en": "An encrypted JSON file will be generated with your private key.",
+      "es": "Se generará un archivo JSON encriptado con tu clave privada."
+    },
+    "export_password": {
+      "pt": "Senha para Criptografia",
+      "en": "Encryption Password",
+      "es": "Contraseña de Encriptación"
+    },
+    "export": {
+      "pt": "Exportar",
+      "en": "Export",
+      "es": "Exportar"
+    },
+    "remove_warning_title": {
+      "pt": "Atenção!",
+      "en": "Warning!",
+      "es": "¡Atención!"
+    },
+    "remove_warning": {
+      "pt": "Esta ação não pode ser desfeita. Certifique-se de ter backup da sua frase de recuperação.",
+      "en": "This action cannot be undone. Make sure you have a backup of your recovery phrase.",
+      "es": "Esta acción no se puede deshacer. Asegúrate de tener un respaldo de tu frase de recuperación."
+    },
+    "remove_confirmation": {
+      "pt": "Tem certeza que deseja remover a conta",
+      "en": "Are you sure you want to remove the account",
+      "es": "¿Estás seguro de que quieres eliminar la cuenta"
+    },
+    "remove": {
+      "pt": "Remover",
+      "en": "Remove",
+      "es": "Eliminar"
+    },
+    "no_tokens_title": {
+      "pt": "Nenhum token encontrado",
+      "en": "No tokens found",
+      "es": "No se encontraron tokens"
+    },
+    "no_tokens_description": {
+      "pt": "Seus tokens aparecerão aqui quando você tiver saldo.",
+      "en": "Your tokens will appear here when you have balance.",
+      "es": "Tus tokens aparecerán aquí cuando tengas saldo."
+    },
+    "refresh_balances": {
+      "pt": "Atualizar Saldos",
+      "en": "Refresh Balances",
+      "es": "Actualizar Saldos"
+    },
+    "search_tokens": {
+      "pt": "Buscar tokens...",
+      "en": "Search tokens...",
+      "es": "Buscar tokens..."
+    },
+    "sort_name": {
+      "pt": "Nome",
+      "en": "Name",
+      "es": "Nombre"
+    },
+    "sort_balance": {
+      "pt": "Saldo",
+      "en": "Balance",
+      "es": "Saldo"
+    },
+    "show_zero_balances": {
+      "pt": "Mostrar saldos zerados",
+      "en": "Show zero balances",
+      "es": "Mostrar saldos cero"
+    },
+    "no_results": {
+      "pt": "Nenhum resultado encontrado",
+      "en": "No results found",
+      "es": "No se encontraron resultados"
+    },
+    "try_different_search": {
+      "pt": "Tente uma busca diferente ou ajuste os filtros.",
+      "en": "Try a different search or adjust filters.",
+      "es": "Prueba una búsqueda diferente o ajusta los filtros."
+    },
+    "native": {
+      "pt": "Nativo",
+      "en": "Native",
+      "es": "Nativo"
+    },
+    "available": {
+      "pt": "Disponível",
+      "en": "Available",
+      "es": "Disponible"
+    },
+    "send_first_transaction": {
+      "pt": "Enviar Primeira Transação",
+      "en": "Send First Transaction",
+      "es": "Enviar Primera Transacción"
+    },
+    "no_nfts_title": {
+      "pt": "Nenhum NFT encontrado",
+      "en": "No NFTs found",
+      "es": "No se encontraron NFTs"
+    },
+    "no_nfts_description": {
+      "pt": "Seus NFTs aparecerão aqui quando você possuir algum.",
+      "en": "Your NFTs will appear here when you own some.",
+      "es": "Tus NFTs aparecerán aquí cuando tengas algunos."
+    },
+    "refresh": {
+      "pt": "Atualizar",
+      "en": "Refresh",
+      "es": "Actualizar"
+    },
+    "search_nfts": {
+      "pt": "Buscar NFTs...",
+      "en": "Search NFTs...",
+      "es": "Buscar NFTs..."
+    },
+    "filters": {
+      "pt": "Filtros",
+      "en": "Filters",
+      "es": "Filtros"
+    },
+    "collection": {
+      "pt": "Coleção",
+      "en": "Collection",
+      "es": "Colección"
+    },
+    "all_collections": {
+      "pt": "Todas",
+      "en": "All",
+      "es": "Todas"
+    },
+    "clear_filters": {
+      "pt": "Limpar Filtros",
+      "en": "Clear Filters",
+      "es": "Limpiar Filtros"
+    },
+    "view": {
+      "pt": "Ver",
+      "en": "View",
+      "es": "Ver"
+    },
+    "tokenized": {
+      "pt": "Tokenizado",
+      "en": "Tokenized",
+      "es": "Tokenizado"
+    },
+    "transfer": {
+      "pt": "Transferir",
+      "en": "Transfer",
+      "es": "Transferir"
+    },
+    "attributes": {
+      "pt": "Atributos",
+      "en": "Attributes",
+      "es": "Atributos"
+    },
+    "back_to_wallet": {
+      "pt": "Voltar à Carteira",
+      "en": "Back to Wallet",
+      "es": "Volver a Billetera"
+    },
+    "hash_copied": {
+      "pt": "Hash copiado!",
+      "en": "Hash copied!",
+      "es": "¡Hash copiado!"
+    },
+    "payment_request_copied": {
+      "pt": "Solicitação copiada!",
+      "en": "Request copied!",
+      "es": "¡Solicitud copiada!"
+    },
+    "qr_downloaded": {
+      "pt": "QR Code baixado!",
+      "en": "QR Code downloaded!",
+      "es": "¡Código QR descargado!"
+    },
+    "download_failed": {
+      "pt": "Erro no download",
+      "en": "Download failed",
+      "es": "Error en descarga"
+    },
+    "balance": {
+      "pt": "Saldo Disponível",
+      "en": "Available Balance",
+      "es": "Saldo Disponible"
+    },
+    "send_money": {
+      "pt": "Enviar Dinheiro",
+      "en": "Send Money",
+      "es": "Enviar Dinero"
+    },
+    "receive_money": {
+      "pt": "Receber Dinheiro",
+      "en": "Receive Money",
+      "es": "Recibir Dinero"
+    },
+    "transaction_history": {
+      "pt": "Histórico de Transações",
+      "en": "Transaction History",
+      "es": "Historial de Transacciones"
+    },
+    "status": {
+      "pending": {
+        "pt": "Pendente",
+        "en": "Pending",
+        "es": "Pendiente"
+      },
+      "included": {
+        "pt": "Incluída",
+        "en": "Included",
+        "es": "Incluida"
+      },
+      "finalized": {
+        "pt": "Finalizada",
+        "en": "Finalized",
+        "es": "Finalizada"
+      },
+      "failed": {
+        "pt": "Falhou",
+        "en": "Failed",
+        "es": "Falló"
+      }
+    }
+  },
+  "enterpriseDetail": {
+    "tabs": {
+      "overview": {
+        "pt": "Visão Geral",
+        "en": "Overview",
+        "es": "Resumen"
+      },
+      "listings": {
+        "pt": "Produtos & Serviços",
+        "en": "Products & Services",
+        "es": "Productos y Servicios"
+      },
+      "economy": {
+        "pt": "Economia / Token",
+        "en": "Economy / Token",
+        "es": "Economía / Token"
+      },
+      "about": {
+        "pt": "Sobre",
+        "en": "About",
+        "es": "Acerca de"
+      }
+    },
+    "actions": {
+      "share": {
+        "pt": "Compartilhar",
+        "en": "Share",
+        "es": "Compartir"
+      },
+      "contact": {
+        "pt": "Entrar em contato",
+        "en": "Contact",
+        "es": "Contactar"
+      },
+      "createListing": {
+        "pt": "Criar Anúncio",
+        "en": "Create Listing",
+        "es": "Crear Anuncio"
+      },
+      "linkCopied": {
+        "pt": "Link copiado!",
+        "en": "Link copied!",
+        "es": "¡Enlace copiado!"
+      }
+    },
+    "overview": {
+      "segment": {
+        "pt": "Segmento",
+        "en": "Segment",
+        "es": "Segmento"
+      },
+      "location": {
+        "pt": "Localização",
+        "en": "Location",
+        "es": "Ubicación"
+      },
+      "since": {
+        "pt": "Desde",
+        "en": "Since",
+        "es": "Desde"
+      },
+      "rating": {
+        "pt": "Avaliação",
+        "en": "Rating",
+        "es": "Calificación"
+      },
+      "listingsCount": {
+        "pt": "Anúncios",
+        "en": "Listings",
+        "es": "Anuncios"
+      }
+    },
+    "listings": {
+      "searchPlaceholder": {
+        "pt": "Busque por título, tags…",
+        "en": "Search by title, tags…",
+        "es": "Buscar por título, etiquetas…"
+      },
+      "filters": {
+        "category": {
+          "pt": "Categoria",
+          "en": "Category",
+          "es": "Categoría"
+        },
+        "subcategory": {
+          "pt": "Subcategoria",
+          "en": "Subcategory",
+          "es": "Subcategoría"
+        },
+        "priceMin": {
+          "pt": "Preço mín.",
+          "en": "Min. price",
+          "es": "Precio mín."
+        },
+        "priceMax": {
+          "pt": "Preço máx.",
+          "en": "Max. price",
+          "es": "Precio máx."
+        },
+        "condition": {
+          "pt": "Condição",
+          "en": "Condition",
+          "es": "Condición"
+        },
+        "sortBy": {
+          "pt": "Ordenar por",
+          "en": "Sort by",
+          "es": "Ordenar por"
+        }
+      },
+      "loadMore": {
+        "pt": "Carregar mais",
+        "en": "Load more",
+        "es": "Cargar más"
+      },
+      "empty": {
+        "pt": "Nenhum produto/serviço encontrado com esses filtros.",
+        "en": "No products/services found with these filters.",
+        "es": "No se encontraron productos/servicios con estos filtros."
+      }
+    },
+    "economy": {
+      "token": {
+        "pt": "Token",
+        "en": "Token",
+        "es": "Token"
+      },
+      "price": {
+        "pt": "Preço (BZR)",
+        "en": "Price (BZR)",
+        "es": "Precio (BZR)"
+      },
+      "change24h": {
+        "pt": "Variação 24h",
+        "en": "24h Change",
+        "es": "Cambio 24h"
+      },
+      "holders": {
+        "pt": "Holders",
+        "en": "Holders",
+        "es": "Tenedores"
+      },
+      "supply": {
+        "pt": "Oferta",
+        "en": "Supply",
+        "es": "Oferta"
+      },
+      "treasury": {
+        "pt": "Tesouro (BZR)",
+        "en": "Treasury (BZR)",
+        "es": "Tesorería (BZR)"
+      },
+      "revenue30d": {
+        "pt": "Receita (30d)",
+        "en": "Revenue (30d)",
+        "es": "Ingresos (30d)"
+      },
+      "revenue12m": {
+        "pt": "Receita (12m)",
+        "en": "Revenue (12m)",
+        "es": "Ingresos (12m)"
+      },
+      "profitMargin": {
+        "pt": "Margem de Lucro",
+        "en": "Profit Margin",
+        "es": "Margen de Beneficio"
+      },
+      "dividendPolicy": {
+        "pt": "Política de Dividendos",
+        "en": "Dividend Policy",
+        "es": "Política de Dividendos"
+      },
+      "lastPayout": {
+        "pt": "Último Pagamento",
+        "en": "Last Payout",
+        "es": "Último Pago"
+      },
+      "address": {
+        "pt": "Endereço on-chain",
+        "en": "On-chain Address",
+        "es": "Dirección on-chain"
+      },
+      "copy": {
+        "pt": "Copiar",
+        "en": "Copy",
+        "es": "Copiar"
+      },
+      "disclaimer": {
+        "pt": "Informações meramente ilustrativas e não constituem recomendação de investimento.",
+        "en": "Information is for illustration purposes only and does not constitute investment advice.",
+        "es": "La información es meramente ilustrativa y no constituye recomendación de inversión."
+      }
+    },
+    "about": {
+      "description": {
+        "pt": "Descrição",
+        "en": "Description",
+        "es": "Descripción"
+      },
+      "team": {
+        "pt": "Equipe",
+        "en": "Team",
+        "es": "Equipo"
+      },
+      "contacts": {
+        "pt": "Contatos",
+        "en": "Contacts",
+        "es": "Contactos"
+      },
+      "docs": {
+        "pt": "Documentos",
+        "en": "Documents",
+        "es": "Documentos"
+      }
+    },
+    "notFound": {
+      "pt": "Empreendimento não encontrado.",
+      "en": "Enterprise not found.",
+      "es": "Empresa no encontrada."
+    }
+  },
+  "p2p": {
+    "title": {
+      "pt": "P2P Trading",
+      "en": "P2P Trading",
+      "es": "Trading P2P"
+    },
+    "subtitle": {
+      "pt": "Negocie BZR diretamente com outros usuários de forma segura",
+      "en": "Trade BZR directly with other users securely",
+      "es": "Negocia BZR directamente con otros usuarios de forma segura"
+    },
+    "tabs": {
+      "buy": {
+        "pt": "Comprar BZR",
+        "en": "Buy BZR",
+        "es": "Comprar BZR"
+      },
+      "sell": {
+        "pt": "Vender BZR",
+        "en": "Sell BZR",
+        "es": "Vender BZR"
+      }
+    },
+    "actions": {
+      "buyWithPix": {
+        "pt": "Comprar com PIX",
+        "en": "Buy with PIX",
+        "es": "Comprar con PIX"
+      },
+      "buyWithPixDesc": {
+        "pt": "Compre BZR instantaneamente",
+        "en": "Buy BZR instantly",
+        "es": "Compra BZR al instante"
+      },
+      "sellNow": {
+        "pt": "Vender agora",
+        "en": "Sell now",
+        "es": "Vender ahora"
+      },
+      "sellNowDesc": {
+        "pt": "Crie sua oferta de venda",
+        "en": "Create your sell offer",
+        "es": "Crea tu oferta de venta"
+      },
+      "myTrades": {
+        "pt": "Minhas negociações",
+        "en": "My trades",
+        "es": "Mis negociaciones"
+      },
+      "activeTrades": {
+        "pt": "ativas",
+        "en": "active",
+        "es": "activas"
+      }
+    },
+    "side": {
+      "buy": {
+        "pt": "COMPRAR",
+        "en": "BUY",
+        "es": "COMPRAR"
+      },
+      "sell": {
+        "pt": "VENDER",
+        "en": "SELL",
+        "es": "VENDER"
+      }
+    },
+    "stats": {
+      "title": {
+        "pt": "Estatísticas do mercado",
+        "en": "Market statistics",
+        "es": "Estadísticas del mercado"
+      },
+      "totalVolume": {
+        "pt": "Volume total",
+        "en": "Total volume",
+        "es": "Volumen total"
+      },
+      "activeTraders": {
+        "pt": "Traders ativos",
+        "en": "Active traders",
+        "es": "Traders activos"
+      },
+      "avgPrice": {
+        "pt": "Preço médio",
+        "en": "Average price",
+        "es": "Precio promedio"
+      },
+      "dailyTrades": {
+        "pt": "Trades hoje",
+        "en": "Trades today",
+        "es": "Trades hoy"
+      },
+      "completed": {
+        "pt": "Concluídos",
+        "en": "Completed",
+        "es": "Completados"
+      },
+      "cancelRate": {
+        "pt": "Taxa de cancelamento",
+        "en": "Cancel rate",
+        "es": "Tasa de cancelación"
+      },
+      "avgReleaseTime": {
+        "pt": "Tempo médio de liberação",
+        "en": "Avg release time",
+        "es": "Tiempo promedio de liberación"
+      }
+    },
+    "featured": {
+      "title": {
+        "pt": "Ofertas em destaque",
+        "en": "Featured offers",
+        "es": "Ofertas destacadas"
+      },
+      "viewAll": {
+        "pt": "Ver todas",
+        "en": "View all",
+        "es": "Ver todas"
+      }
+    },
+    "security": {
+      "title": {
+        "pt": "Dicas de segurança",
+        "en": "Security tips",
+        "es": "Consejos de seguridad"
+      },
+      "tip1": {
+        "pt": "Só libere o BZR após confirmar o recebimento do pagamento",
+        "en": "Only release BZR after confirming payment receipt",
+        "es": "Solo libera BZR después de confirmar la recepción del pago"
+      },
+      "tip2": {
+        "pt": "Verifique sempre a autenticidade dos comprovantes",
+        "en": "Always verify the authenticity of receipts",
+        "es": "Siempre verifica la autenticidad de los comprobantes"
+      },
+      "tip3": {
+        "pt": "Use apenas métodos de pagamento rastreáveis",
+        "en": "Use only traceable payment methods",
+        "es": "Usa solo métodos de pago rastreables"
+      },
+      "tip4": {
+        "pt": "Mantenha comunicação clara com a contraparte",
+        "en": "Maintain clear communication with the counterpart",
+        "es": "Mantén comunicación clara con la contraparte"
+      }
+    },
+    "offers": {
+      "title": {
+        "pt": "Ofertas P2P",
+        "en": "P2P Offers",
+        "es": "Ofertas P2P"
+      },
+      "available": {
+        "pt": "ofertas disponíveis",
+        "en": "offers available",
+        "es": "ofertas disponibles"
+      },
+      "create": {
+        "pt": "Nova oferta",
+        "en": "New offer",
+        "es": "Nueva oferta"
+      },
+      "createFirst": {
+        "pt": "Criar primeira oferta",
+        "en": "Create first offer",
+        "es": "Crear primera oferta"
+      },
+      "retry": {
+        "pt": "Tentar novamente",
+        "en": "Try again",
+        "es": "Intentar de nuevo"
+      },
+      "loading": {
+        "pt": "Carregando...",
+        "en": "Loading...",
+        "es": "Cargando..."
+      },
+      "loadMore": {
+        "pt": "Carregar mais",
+        "en": "Load more",
+        "es": "Cargar más"
+      }
+    },
+    "offer": {
+      "card": {
+        "price": {
+          "pt": "Preço",
+          "en": "Price",
+          "es": "Precio"
+        },
+        "limits": {
+          "pt": "Limites",
+          "en": "Limits",
+          "es": "Límites"
+        },
+        "methods": {
+          "pt": "Métodos",
+          "en": "Methods",
+          "es": "Métodos"
+        },
+        "viewProfile": {
+          "pt": "Ver perfil",
+          "en": "View profile",
+          "es": "Ver perfil"
+        },
+        "viewProfileAria": {
+          "pt": "Ver perfil de {name}",
+          "en": "View {name}'s profile",
+          "es": "Ver perfil de {name}"
+        }
+      },
+      "limits": {
+        "pt": "Limites",
+        "en": "Limits",
+        "es": "Límites"
+      },
+      "available": {
+        "pt": "Disponível",
+        "en": "Available",
+        "es": "Disponible"
+      },
+      "startTrade": {
+        "pt": "Iniciar trade",
+        "en": "Start trade",
+        "es": "Iniciar trade"
+      },
+      "new": {
+        "title": {
+          "pt": "Nova oferta P2P",
+          "en": "New P2P offer",
+          "es": "Nueva oferta P2P"
+        },
+        "subtitle": {
+          "pt": "Configure sua oferta de compra ou venda",
+          "en": "Configure your buy or sell offer",
+          "es": "Configura tu oferta de compra o venta"
+        },
+        "side": {
+          "pt": "Tipo de oferta",
+          "en": "Offer type",
+          "es": "Tipo de oferta"
+        },
+        "buyDesc": {
+          "pt": "Quero comprar BZR",
+          "en": "I want to buy BZR",
+          "es": "Quiero comprar BZR"
+        },
+        "sellDesc": {
+          "pt": "Quero vender BZR",
+          "en": "I want to sell BZR",
+          "es": "Quiero vender BZR"
+        },
+        "pricing": {
+          "pt": "Preço e quantidades",
+          "en": "Price and quantities",
+          "es": "Precio y cantidades"
+        },
+        "priceBZR": {
+          "pt": "Preço por BZR",
+          "en": "Price per BZR",
+          "es": "Precio por BZR"
+        },
+        "minAmount": {
+          "pt": "Quantidade mínima",
+          "en": "Minimum amount",
+          "es": "Cantidad mínima"
+        },
+        "maxAmount": {
+          "pt": "Quantidade máxima",
+          "en": "Maximum amount",
+          "es": "Cantidad máxima"
+        },
+        "methods": {
+          "pt": "Métodos de pagamento",
+          "en": "Payment methods",
+          "es": "Métodos de pago"
+        },
+        "location": {
+          "pt": "Localização (opcional)",
+          "en": "Location (optional)",
+          "es": "Ubicación (opcional)"
+        },
+        "state": {
+          "pt": "Estado",
+          "en": "State",
+          "es": "Estado"
+        },
+        "city": {
+          "pt": "Cidade",
+          "en": "City",
+          "es": "Ciudad"
+        },
+        "terms": {
+          "pt": "Termos e condições (opcional)",
+          "en": "Terms and conditions (optional)",
+          "es": "Términos y condiciones (opcional)"
+        },
+        "termsPlaceholder": {
+          "pt": "Descreva suas condições especiais, tempo de resposta, etc.",
+          "en": "Describe your special conditions, response time, etc.",
+          "es": "Describe tus condiciones especiales, tiempo de respuesta, etc."
+        },
+        "submit": {
+          "pt": "Criar oferta",
+          "en": "Create offer",
+          "es": "Crear oferta"
+        },
+        "creating": {
+          "pt": "Criando...",
+          "en": "Creating...",
+          "es": "Creando..."
+        }
+      },
+      "detail": {
+        "title": {
+          "pt": "Detalhes da oferta",
+          "en": "Offer details",
+          "es": "Detalles de la oferta"
+        },
+        "createdAt": {
+          "pt": "Criada em",
+          "en": "Created on",
+          "es": "Creada el"
+        },
+        "pricing": {
+          "pt": "Preço e quantidade",
+          "en": "Price and quantity",
+          "es": "Precio y cantidad"
+        },
+        "minAmount": {
+          "pt": "Quantidade mínima",
+          "en": "Minimum amount",
+          "es": "Cantidad mínima"
+        },
+        "maxAmount": {
+          "pt": "Quantidade máxima",
+          "en": "Maximum amount",
+          "es": "Cantidad máxima"
+        },
+        "available": {
+          "pt": "Disponível",
+          "en": "Available",
+          "es": "Disponible"
+        },
+        "paymentMethods": {
+          "pt": "Métodos de pagamento",
+          "en": "Payment methods",
+          "es": "Métodos de pago"
+        },
+        "processingTime": {
+          "pt": "Tempo de processamento",
+          "en": "Processing time",
+          "es": "Tiempo de procesamiento"
+        },
+        "terms": {
+          "pt": "Termos e condições",
+          "en": "Terms and conditions",
+          "es": "Términos y condiciones"
+        },
+        "location": {
+          "pt": "Localização",
+          "en": "Location",
+          "es": "Ubicación"
+        },
+        "startTrade": {
+          "pt": "Iniciar negociação",
+          "en": "Start trade",
+          "es": "Iniciar negociación"
+        },
+        "viewProfile": {
+          "pt": "Ver perfil",
+          "en": "View profile",
+          "es": "Ver perfil"
+        },
+        "ownOffer": {
+          "pt": "Esta é sua própria oferta",
+          "en": "This is your own offer",
+          "es": "Esta es tu propia oferta"
+        }
+      }
+    },
+    "trade": {
+      "title": {
+        "pt": "Negociação",
+        "en": "Trade",
+        "es": "Negociación"
+      },
+      "amount": {
+        "pt": "Quantidade",
+        "en": "Amount",
+        "es": "Cantidad"
+      },
+      "method": {
+        "pt": "Método",
+        "en": "Method",
+        "es": "Método"
+      },
+      "price": {
+        "pt": "Preço",
+        "en": "Price",
+        "es": "Precio"
+      },
+      "total": {
+        "pt": "Total",
+        "en": "Total",
+        "es": "Total"
+      },
+      "selectMethod": {
+        "pt": "Selecione um método",
+        "en": "Select a method",
+        "es": "Selecciona un método"
+      },
+      "starting": {
+        "pt": "Iniciando...",
+        "en": "Starting...",
+        "es": "Iniciando..."
+      },
+      "summary": {
+        "pt": "Resumo da negociação",
+        "en": "Trade summary",
+        "es": "Resumen de la negociación"
+      },
+      "buyer": {
+        "pt": "Comprador",
+        "en": "Buyer",
+        "es": "Comprador"
+      },
+      "seller": {
+        "pt": "Vendedor",
+        "en": "Seller",
+        "es": "Vendedor"
+      },
+      "timeline": {
+        "pt": "Histórico",
+        "en": "Timeline",
+        "es": "Historial"
+      },
+      "actions": {
+        "pt": "Ações",
+        "en": "Actions",
+        "es": "Acciones"
+      },
+      "lockEscrow": {
+        "pt": "Bloquear BZR",
+        "en": "Lock BZR",
+        "es": "Bloquear BZR"
+      },
+      "markPaid": {
+        "pt": "Marcar como pago",
+        "en": "Mark as paid",
+        "es": "Marcar como pagado"
+      },
+      "release": {
+        "pt": "Liberar BZR",
+        "en": "Release BZR",
+        "es": "Liberar BZR"
+      },
+      "refund": {
+        "pt": "Reembolsar",
+        "en": "Refund",
+        "es": "Reembolsar"
+      },
+      "cancel": {
+        "pt": "Cancelar",
+        "en": "Cancel",
+        "es": "Cancelar"
+      },
+      "dispute": {
+        "pt": "Abrir disputa",
+        "en": "Open dispute",
+        "es": "Abrir disputa"
+      },
+      "attachProof": {
+        "pt": "Anexar comprovante",
+        "en": "Attach proof",
+        "es": "Adjuntar comprobante"
+      },
+      "proofPlaceholder": {
+        "pt": "Cole aqui o link do comprovante ou descreva o pagamento",
+        "en": "Paste proof link here or describe the payment",
+        "es": "Pega aquí el enlace del comprobante o describe el pago"
+      },
+      "rateExperience": {
+        "pt": "Avalie esta negociação",
+        "en": "Rate this trade",
+        "es": "Califica esta negociación"
+      },
+      "help": {
+        "pt": "Precisa de ajuda?",
+        "en": "Need help?",
+        "es": "¿Necesitas ayuda?"
+      },
+      "helpTip1": {
+        "pt": "Mantenha a comunicação sempre educada",
+        "en": "Keep communication always polite",
+        "es": "Mantén la comunicación siempre educada"
+      },
+      "helpTip2": {
+        "pt": "Confirme todos os dados antes de pagar",
+        "en": "Confirm all details before paying",
+        "es": "Confirma todos los datos antes de pagar"
+      },
+      "helpTip3": {
+        "pt": "Use apenas métodos de pagamento seguros",
+        "en": "Use only secure payment methods",
+        "es": "Usa solo métodos de pago seguros"
+      }
+    },
+    "status": {
+      "created": {
+        "pt": "Criado",
+        "en": "Created",
+        "es": "Creado"
+      },
+      "escrowLocked": {
+        "pt": "BZR bloqueado",
+        "en": "BZR locked",
+        "es": "BZR bloqueado"
+      },
+      "paymentMarked": {
+        "pt": "Pagamento marcado",
+        "en": "Payment marked",
+        "es": "Pago marcado"
+      },
+      "released": {
+        "pt": "Liberado",
+        "en": "Released",
+        "es": "Liberado"
+      },
+      "refunded": {
+        "pt": "Reembolsado",
+        "en": "Refunded",
+        "es": "Reembolsado"
+      },
+      "dispute": {
+        "pt": "Em disputa",
+        "en": "In dispute",
+        "es": "En disputa"
+      },
+      "cancelled": {
+        "pt": "Cancelado",
+        "en": "Cancelled",
+        "es": "Cancelado"
+      }
+    },
+    "timeline": {
+      "TRADE_CREATED": {
+        "pt": "Negociação criada",
+        "en": "Trade created",
+        "es": "Negociación creada"
+      },
+      "ESCROW_LOCKED": {
+        "pt": "BZR bloqueado em escrow",
+        "en": "BZR locked in escrow",
+        "es": "BZR bloqueado en escrow"
+      },
+      "PAYMENT_MARKED": {
+        "pt": "Pagamento marcado como realizado",
+        "en": "Payment marked as done",
+        "es": "Pago marcado como realizado"
+      },
+      "FUNDS_RELEASED": {
+        "pt": "BZR liberado para o comprador",
+        "en": "BZR released to buyer",
+        "es": "BZR liberado al comprador"
+      },
+      "FUNDS_REFUNDED": {
+        "pt": "BZR reembolsado ao vendedor",
+        "en": "BZR refunded to seller",
+        "es": "BZR reembolsado al vendedor"
+      },
+      "TRADE_CANCELLED": {
+        "pt": "Negociação cancelada",
+        "en": "Trade cancelled",
+        "es": "Negociación cancelada"
+      },
+      "DISPUTE_OPENED": {
+        "pt": "Disputa aberta",
+        "en": "Dispute opened",
+        "es": "Disputa abierta"
+      }
+    },
+    "filters": {
+      "title": {
+        "pt": "Filtros",
+        "en": "Filters",
+        "es": "Filtros"
+      },
+      "search": {
+        "pt": "Buscar",
+        "en": "Search",
+        "es": "Buscar"
+      },
+      "searchPlaceholder": {
+        "pt": "Buscar por trader, localização...",
+        "en": "Search by trader, location...",
+        "es": "Buscar por trader, ubicación..."
+      },
+      "payment": {
+        "pt": "Método de pagamento",
+        "en": "Payment method",
+        "es": "Método de pago"
+      },
+      "allMethods": {
+        "pt": "Todos os métodos",
+        "en": "All methods",
+        "es": "Todos los métodos"
+      },
+      "priceRange": {
+        "pt": "Faixa de preço",
+        "en": "Price range",
+        "es": "Rango de precio"
+      },
+      "priceMin": {
+        "pt": "Preço mín.",
+        "en": "Min price",
+        "es": "Precio mín."
+      },
+      "priceMax": {
+        "pt": "Preço máx.",
+        "en": "Max price",
+        "es": "Precio máx."
+      },
+      "reputation": {
+        "pt": "Reputação mínima",
+        "en": "Minimum reputation",
+        "es": "Reputación mínima"
+      },
+      "anyReputation": {
+        "pt": "Qualquer reputação",
+        "en": "Any reputation",
+        "es": "Cualquier reputación"
+      },
+      "location": {
+        "pt": "Localização",
+        "en": "Location",
+        "es": "Ubicación"
+      },
+      "state": {
+        "pt": "Estado",
+        "en": "State",
+        "es": "Estado"
+      },
+      "city": {
+        "pt": "Cidade",
+        "en": "City",
+        "es": "Ciudad"
+      },
+      "clear": {
+        "pt": "Limpar",
+        "en": "Clear",
+        "es": "Limpiar"
+      }
+    },
+    "payment": {
+      "cash": {
+        "pt": "Dinheiro",
+        "en": "Cash",
+        "es": "Efectivo"
+      },
+      "other": {
+        "pt": "Outro",
+        "en": "Other",
+        "es": "Otro"
+      }
+    },
+    "disputes": {
+      "title": {
+        "pt": "Central de disputas",
+        "en": "Disputes center",
+        "es": "Centro de disputas"
+      },
+      "subtitle": {
+        "pt": "Gerencie suas disputas abertas e resolvidas",
+        "en": "Manage your open and resolved disputes",
+        "es": "Gestiona tus disputas abiertas y resueltas"
+      },
+      "total": {
+        "pt": "disputas",
+        "en": "disputes",
+        "es": "disputas"
+      },
+      "search": {
+        "pt": "Buscar disputas...",
+        "en": "Search disputes...",
+        "es": "Buscar disputas..."
+      },
+      "dispute": {
+        "pt": "Disputa",
+        "en": "Dispute",
+        "es": "Disputa"
+      },
+      "trade": {
+        "pt": "Trade",
+        "en": "Trade",
+        "es": "Trade"
+      },
+      "reason": {
+        "pt": "Motivo",
+        "en": "Reason",
+        "es": "Motivo"
+      },
+      "openedAt": {
+        "pt": "Aberta em",
+        "en": "Opened on",
+        "es": "Abierta el"
+      },
+      "resolvedAt": {
+        "pt": "Resolvida em",
+        "en": "Resolved on",
+        "es": "Resuelta el"
+      },
+      "attachments": {
+        "pt": "Anexos",
+        "en": "Attachments",
+        "es": "Adjuntos"
+      },
+      "resolution": {
+        "pt": "Resolução",
+        "en": "Resolution",
+        "es": "Resolución"
+      },
+      "openedBy": {
+        "pt": "Aberta por",
+        "en": "Opened by",
+        "es": "Abierta por"
+      },
+      "viewTrade": {
+        "pt": "Ver trade",
+        "en": "View trade",
+        "es": "Ver trade"
+      },
+      "respond": {
+        "pt": "Responder",
+        "en": "Respond",
+        "es": "Responder"
+      },
+      "stats": {
+        "total": {
+          "pt": "Total",
+          "en": "Total",
+          "es": "Total"
+        },
+        "open": {
+          "pt": "Abertas",
+          "en": "Open",
+          "es": "Abiertas"
+        },
+        "underReview": {
+          "pt": "Em análise",
+          "en": "Under review",
+          "es": "En revisión"
+        },
+        "resolved": {
+          "pt": "Resolvidas",
+          "en": "Resolved",
+          "es": "Resueltas"
+        },
+        "closed": {
+          "pt": "Fechadas",
+          "en": "Closed",
+          "es": "Cerradas"
+        }
+      },
+      "filter": {
+        "all": {
+          "pt": "Todas as disputas",
+          "en": "All disputes",
+          "es": "Todas las disputas"
+        }
+      },
+      "empty": {
+        "title": {
+          "pt": "Nenhuma disputa encontrada",
+          "en": "No disputes found",
+          "es": "No se encontraron disputas"
+        },
+        "description": {
+          "pt": "Você não possui disputas abertas no momento",
+          "en": "You don't have any open disputes at the moment",
+          "es": "No tienes disputas abiertas en este momento"
+        }
+      },
+      "help": {
+        "title": {
+          "pt": "Como funcionam as disputas",
+          "en": "How disputes work",
+          "es": "Cómo funcionan las disputas"
+        },
+        "tip1": {
+          "pt": "Disputas devem ser abertas apenas em casos legítimos",
+          "en": "Disputes should only be opened in legitimate cases",
+          "es": "Las disputas deben abrirse solo en casos legítimos"
+        },
+        "tip2": {
+          "pt": "Forneça evidências claras para acelerar a resolução",
+          "en": "Provide clear evidence to speed up resolution",
+          "es": "Proporciona evidencia clara para acelerar la resolución"
+        },
+        "tip3": {
+          "pt": "Mantenha comunicação respeitosa durante o processo",
+          "en": "Maintain respectful communication during the process",
+          "es": "Mantén comunicación respetuosa durante el proceso"
+        },
+        "tip4": {
+          "pt": "Nossa equipe analisa casos em até 48 horas",
+          "en": "Our team reviews cases within 48 hours",
+          "es": "Nuestro equipo revisa casos en hasta 48 horas"
+        }
+      }
+    },
+    "dispute": {
+      "title": {
+        "pt": "Abrir disputa",
+        "en": "Open dispute",
+        "es": "Abrir disputa"
+      },
+      "reason": {
+        "pt": "Motivo da disputa",
+        "en": "Dispute reason",
+        "es": "Motivo de la disputa"
+      },
+      "selectReason": {
+        "pt": "Selecione um motivo",
+        "en": "Select a reason",
+        "es": "Selecciona un motivo"
+      },
+      "paymentNotReceived": {
+        "pt": "Pagamento não recebido",
+        "en": "Payment not received",
+        "es": "Pago no recibido"
+      },
+      "wrongAmount": {
+        "pt": "Valor incorreto",
+        "en": "Wrong amount",
+        "es": "Cantidad incorrecta"
+      },
+      "fakeProof": {
+        "pt": "Comprovante falso",
+        "en": "Fake proof",
+        "es": "Comprobante falso"
+      },
+      "noResponse": {
+        "pt": "Sem resposta",
+        "en": "No response",
+        "es": "Sin respuesta"
+      },
+      "other": {
+        "pt": "Outro motivo",
+        "en": "Other reason",
+        "es": "Otro motivo"
+      },
+      "description": {
+        "pt": "Descrição detalhada",
+        "en": "Detailed description",
+        "es": "Descripción detallada"
+      },
+      "descriptionPlaceholder": {
+        "pt": "Descreva detalhadamente o problema...",
+        "en": "Describe the problem in detail...",
+        "es": "Describe el problema en detalle..."
+      },
+      "submit": {
+        "pt": "Abrir disputa",
+        "en": "Open dispute",
+        "es": "Abrir disputa"
+      },
+      "status": {
+        "open": {
+          "pt": "Aberta",
+          "en": "Open",
+          "es": "Abierta"
+        },
+        "underReview": {
+          "pt": "Em análise",
+          "en": "Under review",
+          "es": "En revisión"
+        },
+        "resolved": {
+          "pt": "Resolvida",
+          "en": "Resolved",
+          "es": "Resuelta"
+        },
+        "closed": {
+          "pt": "Fechada",
+          "en": "Closed",
+          "es": "Cerrada"
+        }
+      }
+    },
+    "settings": {
+      "title": {
+        "pt": "Configurações P2P",
+        "en": "P2P Settings",
+        "es": "Configuraciones P2P"
+      },
+      "subtitle": {
+        "pt": "Configure suas preferências para negociações P2P",
+        "en": "Configure your P2P trading preferences",
+        "es": "Configura tus preferencias para negociaciones P2P"
+      },
+      "unsavedChanges": {
+        "pt": "Alterações não salvas",
+        "en": "Unsaved changes",
+        "es": "Cambios no guardados"
+      },
+      "defaultLocation": {
+        "pt": "Localização padrão",
+        "en": "Default location",
+        "es": "Ubicación predeterminada"
+      },
+      "country": {
+        "pt": "País",
+        "en": "Country",
+        "es": "País"
+      },
+      "state": {
+        "pt": "Estado",
+        "en": "State",
+        "es": "Estado"
+      },
+      "city": {
+        "pt": "Cidade",
+        "en": "City",
+        "es": "Ciudad"
+      },
+      "locationNote": {
+        "pt": "Esta localização será preenchida automaticamente em novas ofertas",
+        "en": "This location will be automatically filled in new offers",
+        "es": "Esta ubicación se completará automáticamente en nuevas ofertas"
+      },
+      "defaultPayment": {
+        "pt": "Métodos de pagamento padrão",
+        "en": "Default payment methods",
+        "es": "Métodos de pago predeterminados"
+      },
+      "paymentNote": {
+        "pt": "Estes métodos serão selecionados automaticamente em novas ofertas",
+        "en": "These methods will be automatically selected in new offers",
+        "es": "Estos métodos se seleccionarán automáticamente en nuevas ofertas"
+      },
+      "defaultLimits": {
+        "pt": "Limites padrão",
+        "en": "Default limits",
+        "es": "Límites predeterminados"
+      },
+      "minAmount": {
+        "pt": "Quantidade mínima",
+        "en": "Minimum amount",
+        "es": "Cantidad mínima"
+      },
+      "maxAmount": {
+        "pt": "Quantidade máxima",
+        "en": "Maximum amount",
+        "es": "Cantidad máxima"
+      },
+      "limitsNote": {
+        "pt": "Estes valores serão preenchidos automaticamente em novas ofertas",
+        "en": "These values will be automatically filled in new offers",
+        "es": "Estos valores se completarán automáticamente en nuevas ofertas"
+      },
+      "autoCancel": {
+        "pt": "Cancelamento automático",
+        "en": "Auto cancel",
+        "es": "Cancelación automática"
+      },
+      "autoCancelEnabled": {
+        "pt": "Ativar cancelamento automático",
+        "en": "Enable auto cancel",
+        "es": "Habilitar cancelación automática"
+      },
+      "autoCancelEnabledDesc": {
+        "pt": "Cancela automaticamente trades sem resposta",
+        "en": "Automatically cancel trades without response",
+        "es": "Cancela automáticamente trades sin respuesta"
+      },
+      "timeoutMinutes": {
+        "pt": "Tempo limite (minutos)",
+        "en": "Timeout (minutes)",
+        "es": "Tiempo límite (minutos)"
+      },
+      "autoCancelNote": {
+        "pt": "Trades sem atividade serão cancelados automaticamente após este tempo",
+        "en": "Trades without activity will be cancelled automatically after this time",
+        "es": "Los trades sin actividad se cancelarán automáticamente después de este tiempo"
+      },
+      "notifications": {
+        "pt": "Notificações",
+        "en": "Notifications",
+        "es": "Notificaciones"
+      },
+      "notificationsComingSoon": {
+        "pt": "Configurações de notificação em breve",
+        "en": "Notification settings coming soon",
+        "es": "Configuraciones de notificación próximamente"
+      },
+      "comingSoon": {
+        "pt": "Em breve",
+        "en": "Coming soon",
+        "es": "Próximamente"
+      },
+      "securityTips": {
+        "pt": "Dicas de segurança",
+        "en": "Security tips",
+        "es": "Consejos de seguridad"
+      },
+      "tip1": {
+        "pt": "Nunca compartilhe suas chaves privadas",
+        "en": "Never share your private keys",
+        "es": "Nunca compartas tus claves privadas"
+      },
+      "tip2": {
+        "pt": "Sempre verifique endereços antes de enviar",
+        "en": "Always verify addresses before sending",
+        "es": "Siempre verifica direcciones antes de enviar"
+      },
+      "tip3": {
+        "pt": "Use métodos de pagamento rastreáveis",
+        "en": "Use traceable payment methods",
+        "es": "Usa métodos de pago rastreables"
+      },
+      "tip4": {
+        "pt": "Mantenha evidências de todas as transações",
+        "en": "Keep evidence of all transactions",
+        "es": "Mantén evidencia de todas las transacciones"
+      },
+      "reset": {
+        "pt": "Restaurar padrão",
+        "en": "Reset to default",
+        "es": "Restaurar predeterminado"
+      },
+      "save": {
+        "pt": "Salvar configurações",
+        "en": "Save settings",
+        "es": "Guardar configuraciones"
+      },
+      "saving": {
+        "pt": "Salvando...",
+        "en": "Saving...",
+        "es": "Guardando..."
+      }
+    },
+    "myTrades": {
+      "title": {
+        "pt": "Minhas Negociações",
+        "en": "My Trades",
+        "es": "Mis Negociaciones"
+      },
+      "total": {
+        "pt": "negociações no total",
+        "en": "trades in total",
+        "es": "negociaciones en total"
+      },
+      "findOffers": {
+        "pt": "Encontrar Ofertas",
+        "en": "Find Offers",
+        "es": "Encontrar Ofertas"
+      },
+      "search": {
+        "pt": "Buscar negociações...",
+        "en": "Search trades...",
+        "es": "Buscar negociaciones..."
+      },
+      "role": {
+        "pt": "Função",
+        "en": "Role",
+        "es": "Función"
+      },
+      "buyer": {
+        "pt": "Comprador",
+        "en": "Buyer",
+        "es": "Comprador"
+      },
+      "seller": {
+        "pt": "Vendedor",
+        "en": "Seller",
+        "es": "Vendedor"
+      },
+      "counterpart": {
+        "pt": "Contraparte",
+        "en": "Counterpart",
+        "es": "Contraparte"
+      },
+      "viewTrade": {
+        "pt": "Ver Negociação",
+        "en": "View Trade",
+        "es": "Ver Negociación"
+      },
+      "stats": {
+        "total": {
+          "pt": "Total",
+          "en": "Total",
+          "es": "Total"
+        },
+        "active": {
+          "pt": "Ativas",
+          "en": "Active",
+          "es": "Activas"
+        },
+        "completed": {
+          "pt": "Concluídas",
+          "en": "Completed",
+          "es": "Completadas"
+        },
+        "disputed": {
+          "pt": "Em Disputa",
+          "en": "Disputed",
+          "es": "En Disputa"
+        }
+      },
+      "filter": {
+        "all": {
+          "pt": "Todas as negociações",
+          "en": "All trades",
+          "es": "Todas las negociaciones"
+        }
+      },
+      "empty": {
+        "description": {
+          "pt": "Você ainda não iniciou nenhuma negociação. Encontre ofertas interessantes e comece a negociar!",
+          "en": "You haven't started any trades yet. Find interesting offers and start trading!",
+          "es": "Aún no has iniciado ninguna negociación. ¡Encuentra ofertas interesantes y comienza a negociar!"
+        },
+        "noResults": {
+          "pt": "Nenhuma negociação encontrada",
+          "en": "No trades found",
+          "es": "No se encontraron negociaciones"
+        },
+        "tryDifferentFilter": {
+          "pt": "Tente usar filtros diferentes",
+          "en": "Try using different filters",
+          "es": "Intenta usar filtros diferentes"
+        }
+      }
+    },
+    "empty": {
+      "noOffers": {
+        "pt": "Nenhuma oferta encontrada",
+        "en": "No offers found",
+        "es": "No se encontraron ofertas"
+      },
+      "noOffersDesc": {
+        "pt": "Ajuste os filtros ou crie a primeira oferta",
+        "en": "Adjust filters or create the first offer",
+        "es": "Ajusta los filtros o crea la primera oferta"
+      },
+      "noTrades": {
+        "pt": "Nenhuma negociação ativa",
+        "en": "No active trades",
+        "es": "No hay negociaciones activas"
+      }
+    },
+    "validation": {
+      "priceRequired": {
+        "pt": "Preço é obrigatório",
+        "en": "Price is required",
+        "es": "El precio es obligatorio"
+      },
+      "priceRange": {
+        "pt": "Preço deve estar entre R$ 0,01 e R$ 1.000",
+        "en": "Price must be between R$ 0.01 and R$ 1,000",
+        "es": "El precio debe estar entre R$ 0,01 y R$ 1.000"
+      },
+      "minAmountRequired": {
+        "pt": "Quantidade mínima é obrigatória",
+        "en": "Minimum amount is required",
+        "es": "La cantidad mínima es obligatoria"
+      },
+      "maxAmountRequired": {
+        "pt": "Quantidade máxima é obrigatória",
+        "en": "Maximum amount is required",
+        "es": "La cantidad máxima es obligatoria"
+      },
+      "maxAmountGreater": {
+        "pt": "Quantidade máxima deve ser maior que a mínima",
+        "en": "Maximum amount must be greater than minimum",
+        "es": "La cantidad máxima debe ser mayor que la mínima"
+      },
+      "paymentMethodRequired": {
+        "pt": "Selecione pelo menos um método de pagamento",
+        "en": "Select at least one payment method",
+        "es": "Selecciona al menos un método de pago"
+      },
+      "amountRequired": {
+        "pt": "Quantidade é obrigatória",
+        "en": "Amount is required",
+        "es": "La cantidad es obligatoria"
+      },
+      "amountTooLow": {
+        "pt": "Quantidade deve ser pelo menos {min} BZR",
+        "en": "Amount must be at least {min} BZR",
+        "es": "La cantidad debe ser al menos {min} BZR"
+      },
+      "amountTooHigh": {
+        "pt": "Quantidade não pode exceder {max} BZR",
+        "en": "Amount cannot exceed {max} BZR",
+        "es": "La cantidad no puede exceder {max} BZR"
+      },
+      "insufficientAmount": {
+        "pt": "Quantidade excede o disponível",
+        "en": "Amount exceeds available",
+        "es": "La cantidad excede lo disponible"
+      },
+      "paymentMethodNotSupported": {
+        "pt": "Método de pagamento não suportado",
+        "en": "Payment method not supported",
+        "es": "Método de pago no soportado"
+      }
+    },
+    "errors": {
+      "createFailed": {
+        "pt": "Falha ao criar oferta",
+        "en": "Failed to create offer",
+        "es": "Error al crear oferta"
+      },
+      "tradeCreationFailed": {
+        "pt": "Falha ao iniciar negociação",
+        "en": "Failed to start trade",
+        "es": "Error al iniciar negociación"
+      }
+    },
+    "toasts": {
+      "copied": {
+        "pt": "Copiado para a área de transferência",
+        "en": "Copied to clipboard",
+        "es": "Copiado al portapapeles"
+      },
+      "offerCreated": {
+        "pt": "Oferta criada com sucesso!",
+        "en": "Offer created successfully!",
+        "es": "¡Oferta creada exitosamente!"
+      },
+      "tradeCreated": {
+        "pt": "Negociação iniciada com sucesso!",
+        "en": "Trade started successfully!",
+        "es": "¡Negociación iniciada exitosamente!"
+      },
+      "escrowLocked": {
+        "pt": "BZR bloqueado em escrow com sucesso!",
+        "en": "BZR locked in escrow successfully!",
+        "es": "¡BZR bloqueado en escrow exitosamente!"
+      },
+      "paymentMarked": {
+        "pt": "Pagamento marcado como realizado!",
+        "en": "Payment marked as completed!",
+        "es": "¡Pago marcado como realizado!"
+      },
+      "released": {
+        "pt": "BZR liberado com sucesso!",
+        "en": "BZR released successfully!",
+        "es": "¡BZR liberado exitosamente!"
+      },
+      "refunded": {
+        "pt": "BZR reembolsado com sucesso!",
+        "en": "BZR refunded successfully!",
+        "es": "¡BZR reembolsado exitosamente!"
+      },
+      "cancelled": {
+        "pt": "Negociação cancelada!",
+        "en": "Trade cancelled!",
+        "es": "¡Negociación cancelada!"
+      },
+      "disputeOpened": {
+        "pt": "Disputa aberta com sucesso!",
+        "en": "Dispute opened successfully!",
+        "es": "¡Disputa abierta exitosamente!"
+      }
+    }
+  },
+  "hub": {
+    "title": {
+      "pt": "Escolha um módulo",
+      "en": "Choose a module",
+      "es": "Elige un módulo"
+    },
+    "subtitle": {
+      "pt": "Acesse rapidamente as áreas do super app Bazari",
+      "en": "Quickly access Bazari's super app areas",
+      "es": "Accede rápidamente a las áreas del super app de Bazari"
+    },
+    "module": {
+      "marketplace": {
+        "title": {
+          "pt": "Marketplace",
+          "en": "Marketplace",
+          "es": "Marketplace"
+        },
+        "desc": {
+          "pt": "Compre e venda produtos e serviços.",
+          "en": "Buy and sell products and services.",
+          "es": "Compra y vende productos y servicios."
+        }
+      },
+      "wallet": {
+        "title": {
+          "pt": "Wallet",
+          "en": "Wallet",
+          "es": "Wallet"
+        },
+        "desc": {
+          "pt": "Envie e receba BZR; veja seu saldo.",
+          "en": "Send and receive BZR; view your balance.",
+          "es": "Envía y recibe BZR; consulta tu saldo."
+        }
+      },
+      "p2p": {
+        "title": {
+          "pt": "P2P",
+          "en": "P2P",
+          "es": "P2P"
+        },
+        "desc": {
+          "pt": "Negocie BZR direto com pessoas.",
+          "en": "Trade BZR directly with people.",
+          "es": "Intercambia BZR directamente con personas."
+        }
+      },
+      "work": {
+        "title": {
+          "pt": "Work",
+          "en": "Work",
+          "es": "Work"
+        },
+        "desc": {
+          "pt": "Encontre trabalho e oportunidades.",
+          "en": "Find jobs and opportunities.",
+          "es": "Encuentra trabajos y oportunidades."
+        }
+      },
+      "dao": {
+        "title": {
+          "pt": "DAO",
+          "en": "DAO",
+          "es": "DAO"
+        },
+        "desc": {
+          "pt": "Participe da governança da Bazari.",
+          "en": "Join Bazari governance.",
+          "es": "Participa en la gobernanza de Bazari."
+        }
+      },
+      "social": {
+        "title": {
+          "pt": "Social",
+          "en": "Social",
+          "es": "Social"
+        },
+        "desc": {
+          "pt": "Conecte-se com a comunidade.",
+          "en": "Connect with the community.",
+          "es": "Conéctate con la comunidad."
+        }
+      }
+    },
+    "cta": {
+      "enter": {
+        "pt": "Entrar",
+        "en": "Enter",
+        "es": "Entrar"
+      },
+      "createListing": {
+        "pt": "Criar anúncio",
+        "en": "Create listing",
+        "es": "Crear anuncio"
+      },
+      "browseOffers": {
+        "pt": "Ver ofertas",
+        "en": "Browse offers",
+        "es": "Ver ofertas"
+      },
+      "send": {
+        "pt": "Enviar",
+        "en": "Send",
+        "es": "Enviar"
+      },
+      "receive": {
+        "pt": "Receber",
+        "en": "Receive",
+        "es": "Recibir"
+      }
+    }
+  },
+  "marketplace": {
+    "title": {
+      "pt": "Marketplace",
+      "en": "Marketplace",
+      "es": "Marketplace"
+    },
+    "categories": {
+      "pt": "Categorias",
+      "en": "Categories",
+      "es": "Categorías"
+    },
+    "search_placeholder": {
+      "pt": "Buscar produtos...",
+      "en": "Search products...",
+      "es": "Buscar productos..."
+    },
+    "create_listing": {
+      "pt": "Criar Anúncio",
+      "en": "Create Listing",
+      "es": "Crear Anuncio"
+    },
+    "filters": {
+      "pt": "Filtros",
+      "en": "Filters",
+      "es": "Filtros"
+    },
+    "price_range": {
+      "pt": "Faixa de Preço",
+      "en": "Price Range",
+      "es": "Rango de Precio"
+    },
+    "digital_products": {
+      "pt": "Produtos Digitais",
+      "en": "Digital Products",
+      "es": "Productos Digitales"
+    },
+    "browse_title": {
+      "pt": "Explorar Marketplace",
+      "en": "Browse Marketplace",
+      "es": "Explorar Marketplace"
+    },
+    "products_services": {
+      "pt": "Produtos & Serviços",
+      "en": "Products & Services",
+      "es": "Productos y Servicios"
+    },
+    "enterprises": {
+      "pt": "Empreendimentos",
+      "en": "Enterprises",
+      "es": "Emprendimientos"
+    },
+    "search_products": {
+      "pt": "Buscar produtos e serviços...",
+      "en": "Search products and services...",
+      "es": "Buscar productos y servicios..."
+    },
+    "search_enterprises": {
+      "pt": "Buscar empreendimentos...",
+      "en": "Search enterprises...",
+      "es": "Buscar emprendimientos..."
+    },
+    "clear_filters": {
+      "pt": "Limpar Filtros",
+      "en": "Clear Filters",
+      "es": "Limpiar Filtros"
+    },
+    "clear_all": {
+      "pt": "Limpar Tudo",
+      "en": "Clear All",
+      "es": "Limpiar Todo"
+    },
+    "filters_applied": {
+      "pt": "Filtros aplicados",
+      "en": "Filters applied",
+      "es": "Filtros aplicados"
+    },
+    "all_categories": {
+      "pt": "Todas as Categorias",
+      "en": "All Categories",
+      "es": "Todas las Categorías"
+    },
+    "all_subcategories": {
+      "pt": "Todas as Subcategorias",
+      "en": "All Subcategories",
+      "es": "Todas las Subcategorías"
+    },
+    "all_conditions": {
+      "pt": "Todas as Condições",
+      "en": "All Conditions",
+      "es": "Todas las Condiciones"
+    },
+    "condition": {
+      "pt": "Condição",
+      "en": "Condition",
+      "es": "Condición"
+    },
+    "new": {
+      "pt": "Novo",
+      "en": "New",
+      "es": "Nuevo"
+    },
+    "used": {
+      "pt": "Usado",
+      "en": "Used",
+      "es": "Usado"
+    },
+    "refurbished": {
+      "pt": "Recondicionado",
+      "en": "Refurbished",
+      "es": "Reacondicionado"
+    },
+    "location": {
+      "pt": "Localização",
+      "en": "Location",
+      "es": "Ubicación"
+    },
+    "city": {
+      "pt": "Cidade",
+      "en": "City",
+      "es": "Ciudad"
+    },
+    "state": {
+      "pt": "Estado",
+      "en": "State",
+      "es": "Estado"
+    },
+    "sort_by": {
+      "pt": "Ordenar por",
+      "en": "Sort by",
+      "es": "Ordenar por"
+    },
+    "relevance": {
+      "pt": "Relevância",
+      "en": "Relevance",
+      "es": "Relevancia"
+    },
+    "newest": {
+      "pt": "Mais Recentes",
+      "en": "Newest",
+      "es": "Más Recientes"
+    },
+    "price_asc": {
+      "pt": "Menor Preço",
+      "en": "Lowest Price",
+      "es": "Precio Menor"
+    },
+    "price_desc": {
+      "pt": "Maior Preço",
+      "en": "Highest Price",
+      "es": "Precio Mayor"
+    },
+    "rating_desc": {
+      "pt": "Melhor Avaliação",
+      "en": "Best Rating",
+      "es": "Mejor Valoración"
+    },
+    "views_desc": {
+      "pt": "Mais Visualizados",
+      "en": "Most Viewed",
+      "es": "Más Vistos"
+    },
+    "sales_desc": {
+      "pt": "Mais Vendidos",
+      "en": "Best Selling",
+      "es": "Más Vendidos"
+    },
+    "verified_only": {
+      "pt": "Apenas Verificados",
+      "en": "Verified Only",
+      "es": "Solo Verificados"
+    },
+    "min_rating": {
+      "pt": "Avaliação Mínima",
+      "en": "Minimum Rating",
+      "es": "Valoración Mínima"
+    },
+    "any_rating": {
+      "pt": "Qualquer Avaliação",
+      "en": "Any Rating",
+      "es": "Cualquier Valoración"
+    },
+    "stars": {
+      "pt": "estrelas",
+      "en": "stars",
+      "es": "estrellas"
+    },
+    "results_found": {
+      "pt": "resultados encontrados",
+      "en": "results found",
+      "es": "resultados encontrados"
+    },
+    "for": {
+      "pt": "para",
+      "en": "for",
+      "es": "para"
+    },
+    "no_results_title": {
+      "pt": "Nenhum resultado encontrado",
+      "en": "No results found",
+      "es": "No se encontraron resultados"
+    },
+    "no_results_description": {
+      "pt": "Tente ajustar seus filtros ou termos de busca",
+      "en": "Try adjusting your filters or search terms",
+      "es": "Intenta ajustar tus filtros o términos de búsqueda"
+    },
+    "load_more": {
+      "pt": "Carregar Mais",
+      "en": "Load More",
+      "es": "Cargar Más"
+    },
+    "views": {
+      "pt": "visualizações",
+      "en": "views",
+      "es": "visualizaciones"
+    },
+    "sales": {
+      "pt": "vendas",
+      "en": "sales",
+      "es": "ventas"
+    },
+    "verified": {
+      "pt": "Verificado",
+      "en": "Verified",
+      "es": "Verificado"
+    },
+    "view_all": {
+      "pt": "Ver Todos",
+      "en": "View All",
+      "es": "Ver Todos"
+    },
+    "popular_products": {
+      "pt": "Produtos Populares",
+      "en": "Popular Products",
+      "es": "Productos Populares"
+    },
+    "recent_products": {
+      "pt": "Produtos Recentes",
+      "en": "Recent Products",
+      "es": "Productos Recientes"
+    },
+    "featured_enterprises": {
+      "pt": "Empreendimentos em Destaque",
+      "en": "Featured Enterprises",
+      "es": "Emprendimientos Destacados"
+    },
+    "no_products_title": {
+      "pt": "Nenhum produto encontrado",
+      "en": "No products found",
+      "es": "No se encontraron productos"
+    },
+    "no_products_description": {
+      "pt": "Seja o primeiro a criar um anúncio!",
+      "en": "Be the first to create a listing!",
+      "es": "¡Sé el primero en crear un anuncio!"
+    },
+    "no_recent_products": {
+      "pt": "Nenhum produto recente",
+      "en": "No recent products",
+      "es": "No hay productos recientes"
+    },
+    "no_recent_products_description": {
+      "pt": "Novos produtos aparecerão aqui",
+      "en": "New products will appear here",
+      "es": "Los nuevos productos aparecerán aquí"
+    },
+    "no_enterprises_title": {
+      "pt": "Nenhum empreendimento encontrado",
+      "en": "No enterprises found",
+      "es": "No se encontraron emprendimientos"
+    },
+    "no_enterprises_description": {
+      "pt": "Cadastre seu negócio e comece a vender!",
+      "en": "Register your business and start selling!",
+      "es": "¡Registra tu negocio y comienza a vender!"
+    },
+    "create_first_listing": {
+      "pt": "Criar Primeiro Anúncio",
+      "en": "Create First Listing",
+      "es": "Crear Primer Anuncio"
+    },
+    "create_enterprise": {
+      "pt": "Criar Empreendimento",
+      "en": "Create Enterprise",
+      "es": "Crear Emprendimiento"
+    },
+    "start_selling": {
+      "pt": "Começar a Vender",
+      "en": "Start Selling",
+      "es": "Comenzar a Vender"
+    },
+    "explore_products": {
+      "pt": "Explorar Produtos",
+      "en": "Explore Products",
+      "es": "Explorar Productos"
+    },
+    "cta_title": {
+      "pt": "Pronto para começar?",
+      "en": "Ready to get started?",
+      "es": "¿Listo para empezar?"
+    },
+    "cta_description": {
+      "pt": "Junte-se à nossa comunidade de compradores e vendedores",
+      "en": "Join our community of buyers and sellers",
+      "es": "Únete a nuestra comunidad de compradores y vendedores"
+    },
+    "subtitle": {
+      "pt": "Compre, venda e descubra produtos incríveis na nossa plataforma descentralizada",
+      "en": "Buy, sell and discover amazing products on our decentralized platform",
+      "es": "Compra, vende y descubre productos increíbles en nuestra plataforma descentralizada"
+    },
+    "p2p_trading": {
+      "pt": "Negociação P2P",
+      "en": "P2P Trading",
+      "es": "Comercio P2P"
+    },
+    "no_enterprise_title": {
+      "pt": "Você precisa de um Empreendimento",
+      "en": "You need an Enterprise",
+      "es": "Necesitas una Empresa"
+    },
+    "no_enterprise_desc": {
+      "pt": "Para anunciar produtos ou serviços, crie um Empreendimento primeiro.",
+      "en": "To advertise products or services, create an Enterprise first.",
+      "es": "Para anunciar productos o servicios, crea una Empresa primero."
+    },
+    "create_enterprise_cta": {
+      "pt": "Criar Empreendimento",
+      "en": "Create Enterprise",
+      "es": "Crear Empresa"
+    },
+    "back_to_marketplace": {
+      "pt": "Voltar ao Marketplace",
+      "en": "Back to Marketplace",
+      "es": "Volver al Marketplace"
+    },
+    "enterprise_label": {
+      "pt": "Selecione o Empreendimento",
+      "en": "Select Enterprise",
+      "es": "Seleccionar Empresa"
+    },
+    "enterprise_placeholder": {
+      "pt": "Escolha onde este anúncio será vinculado",
+      "en": "Choose where this listing will be linked",
+      "es": "Elige dónde se vinculará este anuncio"
+    },
+    "enterprise_required": {
+      "pt": "Selecione um empreendimento para continuar.",
+      "en": "Select an enterprise to continue.",
+      "es": "Selecciona una empresa para continuar."
+    },
+    "enterprise_not_owned": {
+      "pt": "O empreendimento informado não pertence à sua conta.",
+      "en": "The specified enterprise does not belong to your account.",
+      "es": "La empresa especificada no pertenece a tu cuenta."
+    }
+  },
+  "profile": {
+    "title": {
+      "pt": "Perfil",
+      "en": "Profile",
+      "es": "Perfil"
+    },
+    "reputation": {
+      "pt": "Reputação",
+      "en": "Reputation",
+      "es": "Reputación"
+    },
+    "reviews": {
+      "pt": "Avaliações",
+      "en": "Reviews",
+      "es": "Reseñas"
+    },
+    "chat": {
+      "pt": "Conversar",
+      "en": "Chat",
+      "es": "Chatear"
+    }
+  },
+  "notifications": {
+    "title": {
+      "pt": "Notificações",
+      "en": "Notifications",
+      "es": "Notificaciones"
+    },
+    "mark_all_read": {
+      "pt": "Marcar todas como lidas",
+      "en": "Mark all as read",
+      "es": "Marcar todas como leídas"
+    },
+    "no_notifications": {
+      "pt": "Nenhuma notificação",
+      "en": "No notifications",
+      "es": "Sin notificaciones"
+    }
+  },
+  "dao": {
+    "title": {
+      "pt": "DAO",
+      "en": "DAO",
+      "es": "DAO"
+    },
+    "proposals": {
+      "pt": "Propostas",
+      "en": "Proposals",
+      "es": "Propuestas"
+    },
+    "voting": {
+      "pt": "Votação",
+      "en": "Voting",
+      "es": "Votación"
+    }
+  },
+  "social": {
+    "title": {
+      "pt": "Social",
+      "en": "Social",
+      "es": "Social"
+    },
+    "feed": {
+      "pt": "Feed",
+      "en": "Feed",
+      "es": "Feed"
+    },
+    "post": {
+      "pt": "Publicar",
+      "en": "Post",
+      "es": "Publicar"
+    }
+  },
+  "work": {
+    "title": {
+      "pt": "Trabalho",
+      "en": "Work",
+      "es": "Trabajo"
+    },
+    "jobs": {
+      "pt": "Trabalhos",
+      "en": "Jobs",
+      "es": "Trabajos"
+    },
+    "freelance": {
+      "pt": "Freelance",
+      "en": "Freelance",
+      "es": "Freelance"
+    }
+  },
+  "about": {
+    "nation": {
+      "badge": {
+        "pt": "Quem Somos • Nação Bazari",
+        "en": "About • Bazari Nation",
+        "es": "Quiénes Somos • Nación Bazari"
+      },
+      "title": {
+        "pt": "A Nação Digital do Povo",
+        "en": "The People’s Digital Nation",
+        "es": "La Nación Digital del Pueblo"
+      },
+      "subtitle": {
+        "pt": "Somos uma Nação Digital Descentralizada e Sem Fronteira, nascida nas feiras, nos bairros e no comércio popular — construída e governada por todos.",
+        "en": "We are a Borderless, Decentralized Digital Nation, born in street markets, neighborhoods and grassroots commerce — built and governed by everyone.",
+        "es": "Somos una Nación Digital Descentralizada y sin Fronteras, nacida en mercados, barrios y el comercio popular — construida y gobernada por todos."
+      }
+    },
+    "pillars": {
+      "title": {
+        "pt": "Nossos Pilares",
+        "en": "Our Pillars",
+        "es": "Nuestros Pilares"
+      },
+      "subtitle": {
+        "pt": "Soberania digital, governança do povo e economia real conectada à tecnologia Web3.",
+        "en": "Digital sovereignty, people’s governance and real-world economy connected to Web3.",
+        "es": "Soberanía digital, gobernanza del pueblo y economía real conectada a Web3."
+      },
+      "sovereignty": {
+        "title": {
+          "pt": "Soberania Digital",
+          "en": "Digital Sovereignty",
+          "es": "Soberanía Digital"
+        },
+        "desc": {
+          "pt": "Identidade, valor e regras definidos pela comunidade — não por intermediários.",
+          "en": "Identity, value and rules defined by the community — not intermediaries.",
+          "es": "Identidad, valor y reglas definidas por la comunidad — no por intermediarios."
+        }
+      },
+      "governance": {
+        "title": {
+          "pt": "Governança do Povo",
+          "en": "People’s Governance",
+          "es": "Gobernanza del Pueblo"
+        },
+        "desc": {
+          "pt": "Propostas, votos e execução on-chain com transparência e participação ampla.",
+          "en": "On-chain proposals, voting and execution with transparency and broad participation.",
+          "es": "Propuestas, votos y ejecución on-chain con transparencia y amplia participación."
+        }
+      },
+      "subdaos": {
+        "title": {
+          "pt": "SubDAOs & Comunidades",
+          "en": "SubDAOs & Communities",
+          "es": "SubDAOs y Comunidades"
+        },
+        "desc": {
+          "pt": "Crie organizações autônomas para bairros, feiras, coletivos e empreendimentos.",
+          "en": "Create autonomous organizations for neighborhoods, markets, collectives and enterprises.",
+          "es": "Crea organizaciones autónomas para barrios, mercados, colectivos y emprendimientos."
+        }
+      },
+      "dex": {
+        "title": {
+          "pt": "DEX Comunitária",
+          "en": "Community DEX",
+          "es": "DEX Comunitaria"
+        },
+        "desc": {
+          "pt": "Mercado livre para ativos do ecossistema, taxas baixas e liquidez comunitária.",
+          "en": "Open market for ecosystem assets, low fees and community liquidity.",
+          "es": "Mercado abierto para activos del ecosistema, bajas comisiones y liquidez comunitaria."
+        }
+      },
+      "economy": {
+        "title": {
+          "pt": "Economia Real",
+          "en": "Real Economy",
+          "es": "Economía Real"
+        },
+        "desc": {
+          "pt": "Comércio de produtos e serviços, câmbio P2P e trabalho — tudo tokenizado.",
+          "en": "Commerce of products & services, P2P exchange and work — all tokenized.",
+          "es": "Comercio de productos y servicios, cambio P2P y trabajo — todo tokenizado."
+        }
+      }
+    },
+    "mv": {
+      "mission": {
+        "title": {
+          "pt": "Missão",
+          "en": "Mission",
+          "es": "Misión"
+        },
+        "desc": {
+          "pt": "Gerar prosperidade local através de mercados livres, tecnologia aberta e governança distribuída.",
+          "en": "Generate local prosperity through free markets, open technology and distributed governance.",
+          "es": "Generar prosperidad local mediante mercados libres, tecnología abierta y gobernanza distribuida."
+        }
+      },
+      "vision": {
+        "title": {
+          "pt": "Visão",
+          "en": "Vision",
+          "es": "Visión"
+        },
+        "desc": {
+          "pt": "Ser a principal Nação Digital Soberana do mundo, inclusiva e sem fronteiras.",
+          "en": "Be the world’s leading Sovereign Digital Nation, inclusive and borderless.",
+          "es": "Ser la principal Nación Digital Soberana del mundo, inclusiva y sin fronteras."
+        }
+      }
+    },
+    "values": {
+      "title": {
+        "pt": "Nossos Valores",
+        "en": "Our Values",
+        "es": "Nuestros Valores"
+      },
+      "community": {
+        "title": {
+          "pt": "Comunidade em Primeiro Lugar",
+          "en": "Community First",
+          "es": "Comunidad Primero"
+        },
+        "desc": {
+          "pt": "Tudo começa na base: feiras, bairros, coletivos e pequenos empreendedores.",
+          "en": "Everything starts at the grassroots: markets, neighborhoods, collectives and small businesses.",
+          "es": "Todo comienza en la base: mercados, barrios, colectivos y pequeños emprendedores."
+        }
+      },
+      "transparency": {
+        "title": {
+          "pt": "Transparência",
+          "en": "Transparency",
+          "es": "Transparencia"
+        },
+        "desc": {
+          "pt": "Regras claras e execução on-chain acessível a todos.",
+          "en": "Clear rules and on-chain execution accessible to everyone.",
+          "es": "Reglas claras y ejecución on-chain accesible para todos."
+        }
+      },
+      "freedom": {
+        "title": {
+          "pt": "Liberdade & Acesso",
+          "en": "Freedom & Access",
+          "es": "Libertad y Acceso"
+        },
+        "desc": {
+          "pt": "Sem fronteiras, sem permissões. Entre e participe.",
+          "en": "No borders, no permissions. Enter and participate.",
+          "es": "Sin fronteras, sin permisos. Entra y participa."
+        }
+      }
+    }
+  },
+  "help": {
+    "nation": {
+      "badge": {
+        "pt": "Central do Cidadão",
+        "en": "Citizen Center",
+        "es": "Centro del Ciudadano"
+      },
+      "title": {
+        "pt": "Ajuda da Nação Digital",
+        "en": "Digital Nation Help",
+        "es": "Ayuda de la Nación Digital"
+      },
+      "subtitle": {
+        "pt": "Encontre respostas rápidas sobre comércio, P2P, DEX, SubDAOs e segurança.",
+        "en": "Find quick answers about commerce, P2P, DEX, SubDAOs and security.",
+        "es": "Encuentra respuestas rápidas sobre comercio, P2P, DEX, SubDAOs y seguridad."
+      }
+    },
+    "sections": {
+      "commerce": {
+        "title": {
+          "pt": "Comércio de Produtos & Serviços",
+          "en": "Products & Services Commerce",
+          "es": "Comercio de Productos y Servicios"
+        },
+        "q": {
+          "pt": "Como publicar e vender no marketplace?",
+          "en": "How do I list and sell in the marketplace?",
+          "es": "¿Cómo publico y vendo en el marketplace?"
+        },
+        "a": {
+          "pt": "Acesse Marketplace → Criar Anúncio, defina preço, condição, localização e receba em BZR. Transações são confirmadas on-chain.",
+          "en": "Go to Marketplace → Create Listing, set price, condition, location and get paid in BZR. Transactions are confirmed on-chain.",
+          "es": "Ve a Marketplace → Crear Anuncio, define precio, condición, ubicación y cobra en BZR. Las transacciones se confirman on-chain."
+        }
+      },
+      "p2p": {
+        "title": {
+          "pt": "Câmbio P2P",
+          "en": "P2P Exchange",
+          "es": "Cambio P2P"
+        },
+        "q": {
+          "pt": "Como comprar/vender BZR com segurança?",
+          "en": "How to buy/sell BZR safely?",
+          "es": "¿Cómo comprar/vender BZR de forma segura?"
+        },
+        "a": {
+          "pt": "Use ofertas verificadas, trave o escrow, libere só após confirmar o pagamento e mantenha toda a conversa no chat do trade.",
+          "en": "Use verified offers, lock escrow, release only after confirming payment and keep all communication in the trade chat.",
+          "es": "Usa ofertas verificadas, bloquea el escrow, libera solo tras confirmar el pago y mantén toda la comunicación en el chat del trade."
+        }
+      },
+      "dex": {
+        "title": {
+          "pt": "DEX Comunitária",
+          "en": "Community DEX",
+          "es": "DEX Comunitaria"
+        },
+        "q": {
+          "pt": "Como trocar ativos no DEX?",
+          "en": "How to swap assets on the DEX?",
+          "es": "¿Cómo intercambiar activos en la DEX?"
+        },
+        "a": {
+          "pt": "Abra a DEX, selecione pares, confirme a taxa e assine com sua wallet. Liquidez é provida pela própria comunidade.",
+          "en": "Open the DEX, select pairs, confirm fee and sign with your wallet. Liquidity is provided by the community.",
+          "es": "Abre la DEX, selecciona pares, confirma la tarifa y firma con tu wallet. La liquidez es provista por la comunidad."
+        }
+      },
+      "subdao": {
+        "title": {
+          "pt": "Crie sua SubDAO",
+          "en": "Create your SubDAO",
+          "es": "Crea tu SubDAO"
+        },
+        "q": {
+          "pt": "Como criar uma organização e emitir tokens?",
+          "en": "How to create an organization and issue tokens?",
+          "es": "¿Cómo crear una organización y emitir tokens?"
+        },
+        "a": {
+          "pt": "Em DAO → Criar SubDAO, defina governança (membros, quórum), cadastre o token e liste no DEX para mercado secundário.",
+          "en": "In DAO → Create SubDAO, set governance (members, quorum), register the token and list it on the DEX for secondary market.",
+          "es": "En DAO → Crear SubDAO, define gobernanza (miembros, quórum), registra el token y listalo en la DEX para el mercado secundario."
+        }
+      },
+      "wallet": {
+        "title": {
+          "pt": "Wallet & Identidade",
+          "en": "Wallet & Identity",
+          "es": "Wallet e Identidad"
+        },
+        "q": {
+          "pt": "Perdi minha seed. E agora?",
+          "en": "I lost my seed. What now?",
+          "es": "Perdí mi seed. ¿Y ahora?"
+        },
+        "a": {
+          "pt": "Por segurança, não há recuperação sem a seed. Recomendamos criar nova conta e transferir ativos que ainda controla.",
+          "en": "For security, there is no recovery without the seed. We recommend creating a new account and transferring assets you still control.",
+          "es": "Por seguridad, no hay recuperación sin la seed. Recomendamos crear una nueva cuenta y transferir activos que aún controles."
+        }
+      },
+      "security": {
+        "title": {
+          "pt": "Segurança",
+          "en": "Security",
+          "es": "Seguridad"
+        },
+        "q": {
+          "pt": "Como evitar golpes?",
+          "en": "How to avoid scams?",
+          "es": "¿Cómo evitar estafas?"
+        },
+        "a": {
+          "pt": "Nunca compartilhe sua seed; verifique comprovantes; use métodos rastreáveis; e reporte perfis suspeitos na Central do Cidadão.",
+          "en": "Never share your seed; verify receipts; use traceable methods; and report suspicious profiles in the Citizen Center.",
+          "es": "Nunca compartas tu seed; verifica comprobantes; usa métodos rastreables; y reporta perfiles sospechosos en el Centro del Ciudadano."
+        }
+      }
+    },
+    "contact": {
+      "community": {
+        "title": {
+          "pt": "Comunidade",
+          "en": "Community",
+          "es": "Comunidad"
+        },
+        "desc": {
+          "pt": "Participe dos fóruns e grupos locais para tirar dúvidas e propor melhorias.",
+          "en": "Join forums and local groups to ask questions and propose improvements.",
+          "es": "Únete a foros y grupos locales para hacer preguntas y proponer mejoras."
+        }
+      },
+      "support": {
+        "title": {
+          "pt": "Suporte",
+          "en": "Support",
+          "es": "Soporte"
+        },
+        "desc": {
+          "pt": "Abra um ticket com o time de suporte da Nação Digital para resolver problemas específicos.",
+          "en": "Open a ticket with the Digital Nation support team to resolve specific issues.",
+          "es": "Abre un ticket con el equipo de soporte de la Nación Digital para resolver problemas específicos."
+        }
+      },
+      "safety": {
+        "title": {
+          "pt": "Segurança & Denúncias",
+          "en": "Security & Reports",
+          "es": "Seguridad y Denuncias"
+        },
+        "desc": {
+          "pt": "Denuncie perfis, ofertas e trades suspeitos. A comunidade e moderadores analisam rapidamente.",
+          "en": "Report suspicious profiles, offers and trades. Community and moderators review quickly.",
+          "es": "Denuncia perfiles, ofertas y trades sospechosos. La comunidad y moderadores revisan rápidamente."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-sans text-matte-black-900 bg-sand antialiased;
+  }
+  
+  /* Focus styles for accessibility */
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-bazari-red;
+  }
+  
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-sand-200;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-matte-black-300 rounded-full;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-matte-black-400;
+  }
+}
+
+@layer components {
+  /* Button variants */
+  .btn-primary {
+    @apply bg-bazari-red text-white hover:bg-bazari-red-800 focus:ring-bazari-red-500;
+  }
+  
+  .btn-secondary {
+    @apply bg-bazari-gold text-matte-black hover:bg-bazari-gold-600 focus:ring-bazari-gold-500;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-bazari-red text-bazari-red hover:bg-bazari-red hover:text-white focus:ring-bazari-red-500;
+  }
+  
+  .btn-ghost {
+    @apply text-matte-black-700 hover:bg-matte-black-100 focus:ring-matte-black-500;
+  }
+  
+  /* Card styles */
+  .card {
+    @apply bg-white rounded-2xl shadow-soft border border-sand-200;
+  }
+  
+  .card-elevated {
+    @apply bg-white rounded-2xl shadow-soft-lg border border-sand-200;
+  }
+  
+  /* Form elements */
+  .form-input {
+    @apply w-full px-4 py-3 rounded-xl border border-sand-300 focus:border-bazari-red focus:ring-1 focus:ring-bazari-red bg-white;
+  }
+  
+  .form-label {
+    @apply block text-sm font-medium text-matte-black-700 mb-2;
+  }
+  
+  /* Animations */
+  .animate-fadeIn {
+    animation: fadeIn 0.5s ease-out;
+  }
+  
+  .animate-slideUp {
+    animation: slideUp 0.3s ease-out;
+  }
+}
